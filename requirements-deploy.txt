@@ -1,0 +1,6 @@
+# Minimal serving dependencies (used by the Dockerfile). Inference runs on NumPy (src/numpy_gpt.py),
+# so the image needs no PyTorch.
+numpy>=1.26
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
