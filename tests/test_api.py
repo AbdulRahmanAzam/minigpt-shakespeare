@@ -11,7 +11,7 @@ from src.tokenizer import CharTokenizer
 def client(tiny_model):
     chars = list("\n !',.:;?abcdefgh")[: tiny_model.cfg.vocab_size]
     tok = CharTokenizer(chars)
-    app = create_app(tiny_model, tok, {"step": 5, "metrics": {"val_loss": 1.5}})
+    app = create_app(tiny_model, tok, {"step": 5, "metrics": {"val_loss": 1.5}}, api_keys=[])
     with TestClient(app) as c:
         yield c
 
@@ -47,3 +47,13 @@ def test_invalid_requests_are_rejected(client, payload):
 def test_index_page(client):
     r = client.get("/")
     assert r.status_code == 200 and "MiniGPT" in r.text
+
+
+def test_api_key_required_when_configured(tiny_model):
+    tok = CharTokenizer(list("\n !',.:;?abcdefgh")[: tiny_model.cfg.vocab_size])
+    with TestClient(create_app(tiny_model, tok, {}, api_keys=["k1", "k2"])) as c:
+        payload = {"prompt": "abc", "max_new_tokens": 3}
+        assert c.post("/generate", json=payload).status_code == 401
+        assert c.post("/generate", json=payload, headers={"X-API-Key": "wrong"}).status_code == 401
+        assert c.post("/generate", json=payload, headers={"X-API-Key": "k2"}).status_code == 200
+        assert c.get("/health").status_code == 200                 # health stays open for the host

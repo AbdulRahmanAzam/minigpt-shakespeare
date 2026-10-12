@@ -6,6 +6,7 @@ Environment variables:
     MINIGPT_CHECKPOINT      path to the checkpoint (default: checkpoints/minigpt_shakespeare.pt)
     MINIGPT_CHECKPOINT_URL  if the file is missing, download it from here at startup (used on Render)
     MINIGPT_MAX_NEW_TOKENS  upper limit per request (default 1000)
+    MINIGPT_API_KEYS        comma-separated keys; if set, POST /generate needs an "X-API-Key" header
 
 Endpoints:
     GET  /            small HTML page for trying the model in a browser
@@ -17,13 +18,14 @@ Endpoints:
 from __future__ import annotations
 
 import os
+import secrets
 import threading
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Any
 
 import torch
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, Header, HTTPException
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
 
@@ -33,6 +35,10 @@ from src.gpt import MiniGPT
 from src.tokenizer import CharTokenizer
 
 MAX_NEW_TOKENS = int(os.environ.get("MINIGPT_MAX_NEW_TOKENS", "1000"))
+
+
+def keys_from_env() -> list[str]:
+    return [k.strip() for k in os.environ.get("MINIGPT_API_KEYS", "").split(",") if k.strip()]
 
 
 class GenerateRequest(BaseModel):
@@ -74,8 +80,12 @@ def load_default_model() -> tuple[MiniGPT, CharTokenizer, dict[str, Any]]:
 
 
 def create_app(model: MiniGPT | None = None, tokenizer: CharTokenizer | None = None,
-               state: dict[str, Any] | None = None) -> FastAPI:
-    """Build the app. Tests inject a small model; in production the checkpoint is loaded at startup."""
+               state: dict[str, Any] | None = None, api_keys: list[str] | None = None) -> FastAPI:
+    """Build the app. Tests inject a small model; in production the checkpoint is loaded at startup.
+
+    With no API keys configured, /generate is open (local use); otherwise it requires a valid X-API-Key.
+    """
+    keys = keys_from_env() if api_keys is None else api_keys
     holder: dict[str, Any] = {"model": model, "tokenizer": tokenizer, "state": state or {}}
     lock = threading.Lock()   # one generation at a time keeps CPU usage predictable on small hosts
 
@@ -84,6 +94,10 @@ def create_app(model: MiniGPT | None = None, tokenizer: CharTokenizer | None = N
         if holder["model"] is None:
             holder["model"], holder["tokenizer"], holder["state"] = load_default_model()
         yield
+
+    def require_key(x_api_key: str | None = Header(None)) -> None:
+        if keys and not any(secrets.compare_digest(x_api_key or "", k) for k in keys):
+            raise HTTPException(401, "missing or invalid X-API-Key header")
 
     app = FastAPI(title="MiniGPT Shakespeare", version="1.0.0", lifespan=lifespan,
                   description="Character-level GPT implemented from scratch in PyTorch.")
@@ -105,7 +119,7 @@ def create_app(model: MiniGPT | None = None, tokenizer: CharTokenizer | None = N
             "max_new_tokens_limit": MAX_NEW_TOKENS,
         }
 
-    @app.post("/generate", response_model=GenerateResponse)
+    @app.post("/generate", response_model=GenerateResponse, dependencies=[Depends(require_key)])
     def generate(req: GenerateRequest) -> GenerateResponse:
         tok: CharTokenizer = holder["tokenizer"]
         if req.prompt and not tok.encode(req.prompt, strict=False):
@@ -146,6 +160,7 @@ INDEX_HTML = """<!doctype html>
  <label>temperature <input id="t" type="number" value="0.8" step="0.1" min="0" max="2"></label>
  <label>top-k <input id="k" type="number" placeholder="off" min="1"></label>
  <label>seed <input id="s" type="number" placeholder="random"></label>
+ <label>API key <input id="key" type="password" style="width:12rem"></label>
  <button id="go">Generate</button>
 </div>
 <pre id="out"></pre>
@@ -153,6 +168,7 @@ INDEX_HTML = """<!doctype html>
 <a href="/model-info">model info</a></small></p>
 <script>
 const $ = id => document.getElementById(id);
+$('key').value = localStorage.getItem('minigpt_key') || '';
 fetch('/model-info').then(r => r.json()).then(m => {
   const c = m.config;
   $('info').textContent = `${(m.parameters/1e6).toFixed(2)}M parameters | ${c.n_layers} layers, ${c.n_heads} heads, ` +
@@ -163,7 +179,9 @@ $('go').onclick = async () => {
   const num = id => $(id).value === '' ? null : Number($(id).value);
   $('go').disabled = true; $('out').textContent = 'generating...';
   try {
-    const r = await fetch('/generate', {method: 'POST', headers: {'Content-Type': 'application/json'},
+    localStorage.setItem('minigpt_key', $('key').value);
+    const r = await fetch('/generate', {method: 'POST',
+      headers: {'Content-Type': 'application/json', 'X-API-Key': $('key').value},
       body: JSON.stringify({prompt: $('prompt').value, max_new_tokens: num('n'), temperature: num('t'),
                             top_k: num('k'), seed: num('s')})});
     const j = await r.json();
