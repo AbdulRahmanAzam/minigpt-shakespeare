@@ -169,6 +169,8 @@ inference in pure NumPy ([`src/numpy_gpt.py`](src/numpy_gpt.py), tested to repro
 output), so the image has no PyTorch; it downloads `minigpt_shakespeare.npz` (made by
 `python scripts/export_numpy.py`) from the GitHub Release at build time. Any Docker host works; free tiers sleep after
 inactivity, so the first request can take ~30–60 s.
+SnapDeploy rejects repositories that depend on PyTorch, so deploy it from the `deploy` branch, which holds only
+the serving files: refresh it with `bash scripts/publish_deploy_branch.sh`.
 
 ## 7. Reproducing the evidence
 

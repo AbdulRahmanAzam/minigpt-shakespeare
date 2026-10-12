@@ -184,17 +184,13 @@ def load_npz(path: str | Path) -> tuple[NumpyGPT, CharTokenizer, dict[str, Any]]
     return NumpyGPT(weights, meta["model_config"]), CharTokenizer.from_dict(meta["tokenizer"]), meta
 
 
-def from_torch_checkpoint(path: str | Path) -> tuple[NumpyGPT, CharTokenizer, dict[str, Any]]:
-    """Load a .pt training checkpoint (needs torch; only for local use, the server image ships .npz)."""
-    import torch
-
-    state = torch.load(path, map_location="cpu", weights_only=False)
-    weights = {k: v.float().numpy() for k, v in state["model_state"].items()}
-    return NumpyGPT(weights, state["model_config"]), CharTokenizer.from_dict(state["tokenizer"]), state
-
-
 def load_model(path: str | Path) -> tuple[NumpyGPT, CharTokenizer, dict[str, Any]]:
-    return load_npz(path) if Path(path).suffix == ".npz" else from_torch_checkpoint(path)
+    """Load a .npz export, or convert a .pt training checkpoint (local use only: that path imports torch)."""
+    if Path(path).suffix == ".npz":
+        return load_npz(path)
+    from src.checkpoint import load_as_numpy
+
+    return load_as_numpy(path)
 
 
 # ---------------------------------------------------------------------- text in, text out

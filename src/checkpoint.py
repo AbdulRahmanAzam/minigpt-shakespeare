@@ -79,3 +79,12 @@ def export_inference_checkpoint(src: str | Path, dst: str | Path) -> None:
         state.pop(key, None)
     Path(dst).parent.mkdir(parents=True, exist_ok=True)
     torch.save(state, dst)
+
+
+def load_as_numpy(path: str | Path) -> tuple[Any, CharTokenizer, dict[str, Any]]:
+    """Load a checkpoint as a NumPy-only model (src/numpy_gpt.py), e.g. to serve a .pt file locally."""
+    from src.numpy_gpt import NumpyGPT
+
+    state = torch.load(path, map_location="cpu", weights_only=False)
+    weights = {k: v.float().numpy() for k, v in state["model_state"].items()}
+    return NumpyGPT(weights, state["model_config"]), CharTokenizer.from_dict(state["tokenizer"]), state
