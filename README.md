@@ -327,4 +327,3 @@ Observations → interpretations (kept separate on purpose):
 - Loshchilov & Hutter, *Decoupled Weight Decay Regularization* (AdamW), 2019.
 - Karpathy, [char-rnn](https://github.com/karpathy/char-rnn) — the Tiny Shakespeare corpus; [nanoGPT](https://github.com/karpathy/nanoGPT) was consulted as a reference for common GPT training practice (weight-decay groups, LR schedule). No code was copied.
 - Course curriculum: [ai-engineering-from-scratch, phase 07 — Transformers deep dive](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/07-transformers-deep-dive).
-- AI-assisted development: code was written with the help of an AI coding assistant (allowed by the course); every component is documented and tested, and the author is responsible for it.
