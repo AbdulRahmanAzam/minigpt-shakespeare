@@ -4,14 +4,19 @@ import pytest
 from fastapi.testclient import TestClient
 
 from src.api import create_app
+from src.numpy_gpt import NumpyGPT
 from src.tokenizer import CharTokenizer
+
+
+def as_numpy(model) -> NumpyGPT:
+    return NumpyGPT({k: v.numpy() for k, v in model.state_dict().items()}, model.config_dict())
 
 
 @pytest.fixture
 def client(tiny_model):
     chars = list("\n !',.:;?abcdefgh")[: tiny_model.cfg.vocab_size]
     tok = CharTokenizer(chars)
-    app = create_app(tiny_model, tok, {"step": 5, "metrics": {"val_loss": 1.5}}, api_keys=[])
+    app = create_app(as_numpy(tiny_model), tok, {"step": 5, "metrics": {"val_loss": 1.5}}, api_keys=[])
     with TestClient(app) as c:
         yield c
 
@@ -51,7 +56,7 @@ def test_index_page(client):
 
 def test_api_key_required_when_configured(tiny_model):
     tok = CharTokenizer(list("\n !',.:;?abcdefgh")[: tiny_model.cfg.vocab_size])
-    with TestClient(create_app(tiny_model, tok, {}, api_keys=["k1", "k2"])) as c:
+    with TestClient(create_app(as_numpy(tiny_model), tok, {}, api_keys=["k1", "k2"])) as c:
         payload = {"prompt": "abc", "max_new_tokens": 3}
         assert c.post("/generate", json=payload).status_code == 401
         assert c.post("/generate", json=payload, headers={"X-API-Key": "wrong"}).status_code == 401

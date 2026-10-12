@@ -3,7 +3,8 @@
     uvicorn src.api:app --host 0.0.0.0 --port 8000
 
 Environment variables:
-    MINIGPT_CHECKPOINT      path to the checkpoint (default: checkpoints/minigpt_shakespeare.pt)
+    MINIGPT_CHECKPOINT      .npz (NumPy export) or .pt checkpoint; default: the first of
+                            checkpoints/minigpt_shakespeare.npz, checkpoints/minigpt_shakespeare.pt that exists
     MINIGPT_CHECKPOINT_URL  if the file is missing, download it from here at startup (used on Render)
     MINIGPT_MAX_NEW_TOKENS  upper limit per request (default 1000)
     MINIGPT_API_KEYS        comma-separated keys; if set, POST /generate needs an "X-API-Key" header
@@ -13,6 +14,9 @@ Endpoints:
     GET  /health      liveness check
     GET  /model-info  architecture, parameter count, training metrics
     POST /generate    {"prompt": "ROMEO:", "max_new_tokens": 200, "temperature": 0.8, ...}
+
+Inference runs on NumPy (src/numpy_gpt.py), so the server image needs no PyTorch. A .pt checkpoint still
+works locally (it is converted at startup, which imports torch).
 """
 
 from __future__ import annotations
@@ -24,16 +28,14 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Any
 
-import torch
 from fastapi import Depends, FastAPI, Header, HTTPException
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
 
-from src.checkpoint import load_checkpoint
-from src.generate import generate_text, resolve_checkpoint
-from src.gpt import MiniGPT
+from src.numpy_gpt import NumpyGPT, generate_text, load_model
 from src.tokenizer import CharTokenizer
 
+CHECKPOINT_CANDIDATES = (Path("checkpoints/minigpt_shakespeare.npz"), Path("checkpoints/minigpt_shakespeare.pt"))
 MAX_NEW_TOKENS = int(os.environ.get("MINIGPT_MAX_NEW_TOKENS", "1000"))
 
 
@@ -70,16 +72,16 @@ def _download(url: str, dest: Path) -> None:
     tmp.replace(dest)
 
 
-def load_default_model() -> tuple[MiniGPT, CharTokenizer, dict[str, Any]]:
-    path = resolve_checkpoint(os.environ.get("MINIGPT_CHECKPOINT"))
+def load_default_model() -> tuple[NumpyGPT, CharTokenizer, dict[str, Any]]:
+    env = os.environ.get("MINIGPT_CHECKPOINT")
+    path = Path(env) if env else next((c for c in CHECKPOINT_CANDIDATES if c.exists()), CHECKPOINT_CANDIDATES[0])
     url = os.environ.get("MINIGPT_CHECKPOINT_URL")
     if not path.exists() and url:
         _download(url, path)
-    torch.set_num_threads(max(1, min(4, os.cpu_count() or 1)))
-    return load_checkpoint(path, "cpu")
+    return load_model(path)
 
 
-def create_app(model: MiniGPT | None = None, tokenizer: CharTokenizer | None = None,
+def create_app(model: NumpyGPT | None = None, tokenizer: CharTokenizer | None = None,
                state: dict[str, Any] | None = None, api_keys: list[str] | None = None) -> FastAPI:
     """Build the app. Tests inject a small model; in production the checkpoint is loaded at startup.
 
@@ -108,7 +110,7 @@ def create_app(model: MiniGPT | None = None, tokenizer: CharTokenizer | None = N
 
     @app.get("/model-info")
     def model_info() -> dict[str, Any]:
-        m: MiniGPT = holder["model"]
+        m: NumpyGPT = holder["model"]
         st = holder["state"]
         return {
             "parameters": m.num_parameters(),

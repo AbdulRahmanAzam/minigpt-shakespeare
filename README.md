@@ -161,10 +161,14 @@ curl -X POST http://127.0.0.1:8000/generate -H "Content-Type: application/json" 
 | `GET /model-info` | parameter count, config, training metrics |
 | `POST /generate` | `{prompt, max_new_tokens ≤ 1000, temperature 0–2, top_k?, top_p?, seed?}` → `{text, completion, ignored_chars, seconds, …}` |
 
-**Docker / Render** — `docker build -t minigpt . && docker run -p 8000:8000 minigpt`. The image installs CPU-only
-PyTorch and downloads the released checkpoint at build time. On Render: *New → Blueprint* → select this repo
-(`render.yaml`), or *New → Web Service → Docker*. The free tier sleeps after inactivity, so the first request can
-take ~30–60 s.
+**API keys** — set `MINIGPT_API_KEYS=key1,key2` and `POST /generate` requires an `X-API-Key: key1` header
+(401 otherwise); `/`, `/health`, `/model-info` stay open. Without the variable the API is open (local use).
+
+**Docker / SnapDeploy / Render** — `docker build -t minigpt . && docker run -p 8000:8000 minigpt`. The server runs
+inference in pure NumPy ([`src/numpy_gpt.py`](src/numpy_gpt.py), tested to reproduce the PyTorch logits and greedy
+output), so the image has no PyTorch; it downloads `minigpt_shakespeare.npz` (made by
+`python scripts/export_numpy.py`) from the GitHub Release at build time. Any Docker host works; free tiers sleep after
+inactivity, so the first request can take ~30–60 s.
 
 ## 7. Reproducing the evidence
 
