@@ -11,3 +11,6 @@ fastapi>=0.110
 uvicorn>=0.29
 pydantic>=2.6
 httpx>=0.27
+
+# Optional, only to rebuild the executed notebook (scripts/build_notebook.py --execute):
+#   pip install nbformat nbclient ipykernel

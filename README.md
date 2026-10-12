@@ -10,10 +10,10 @@ classes are used anywhere.
 |---|---|
 | Model | 4.77 M parameters · 6 layers · 4 heads · d_model 256 · context 256 · character vocabulary 65 |
 | Data | Tiny Shakespeare (1.1 M characters), 90/5/5 split identical to the Hugging Face dataset |
-| Result | validation loss **1.353** nats/char (perplexity 3.87), test loss **1.530** · bigram baseline 2.474 |
+| Result | validation loss **1.353** nats/char (perplexity 3.87), next-char accuracy **60.0 %** (top-5 87.0 %) · test loss 1.530 |
 | Training | 3,000 steps, ~9 min on one RTX 3050 Laptop GPU (4 GB), bf16 |
 | Live demo | __DEMO_URL__ |
-| Colab | [`notebooks/MiniGPT_Colab.ipynb`](notebooks/MiniGPT_Colab.ipynb) — [open in Colab](https://colab.research.google.com/github/AbdulRahmanAzam/minigpt-shakespeare/blob/main/notebooks/MiniGPT_Colab.ipynb) |
+| Colab | [`notebooks/MiniGPT_Colab.ipynb`](notebooks/MiniGPT_Colab.ipynb) (outputs of a full run are saved in the file; regenerate with `python scripts/build_notebook.py --execute`) — [open in Colab](https://colab.research.google.com/github/AbdulRahmanAzam/minigpt-shakespeare/blob/main/notebooks/MiniGPT_Colab.ipynb) |
 
 ```text
 $ python -m src.generate --prompt "ROMEO:" --max-new-tokens 200 --seed 42
@@ -143,6 +143,9 @@ python -m src.generate --prompt "To be, or not to be" --top-k 10 --num-samples 3
 python -m src.generate --prompt "JULIET:" --temperature 0          # greedy
 ```
 
+A fixed `--seed` reproduces the same text on the same device; CPU and GPU use different random-number
+generators, so the sampled text differs between them (greedy decoding, `--temperature 0`, normally matches).
+
 **REST API**
 
 ```bash
@@ -200,6 +203,10 @@ Losses are cross-entropy in **nats per character** (perplexity = e^loss, bits/ch
 | 5-gram, add-one smoothing (sparser → worse) | 2.123 | 8.4 | 3.06 |
 | 2-layer LSTM, 4.81 M, same data / batch / steps (best at step 1,250) | 1.360 | 3.90 | 1.96 |
 | **MiniGPT (this repo), 4.77 M** | **1.353** | **3.87** | **1.95** |
+
+**Next-character accuracy** (how often the model's most likely next character is the true one):
+**60.0 % top-1 / 87.0 % top-5** on validation, 56.7 % / 85.8 % on test — vs 15.2 % for always predicting the most
+frequent character (space), 26.9 % for a bigram and 38.5 % for a trigram table.
 
 Test split: **1.530** overall — **1.261** on the part from an already-seen play, **1.693** on *The Tempest*
 (never seen in training; see limitation 2). Fixed-prompt samples: [`outputs/samples/samples.md`](outputs/samples/samples.md)

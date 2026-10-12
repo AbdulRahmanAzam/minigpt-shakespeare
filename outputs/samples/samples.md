@@ -6,19 +6,24 @@ Validation loss 1.3531 (perplexity 3.87); test loss 1.5300.
 
 ## Prompt 1: `'ROMEO:'`
 
-*valid-word rate 0.98, distinct-2 0.98, 4-gram repetition 0.00*
+*valid-word rate 0.98, distinct-2 1.00, 4-gram repetition 0.00*
 
 **Sampled (T = 0.8):**
 
 ```text
 ROMEO:
-As foul shadows not be great as to say,
-As much as your mother like a common to death.
-God grant you, to this uncle is commended:
-I am not like a little fall for the prince,
-Which is but unite as a day as courte hand.
-Farewell: no, farewell. If thou dost the abuse
-As with the outward be when also, 
+Far is false; 'tis gone.
+
+MERCUTIO:
+Come, you sup your grace is that will conceive
+Against me with contrives with the great England.
+
+ROMEO:
+That Hermione that we may have proved him within,
+Whose canst will we are assured his daughter's mouth?
+
+MERCUTIO:
+The case, my lord, the head that send were 
 ```
 
 **Greedy (T = 0), 120 characters:**
@@ -36,25 +41,29 @@ I will not be so much
 
 ## Prompt 2: `'JULIET:\n'`
 
-*valid-word rate 0.97, distinct-2 1.00, 4-gram repetition 0.00*
+*valid-word rate 1.00, distinct-2 0.98, 4-gram repetition 0.00*
 
 **Sampled (T = 0.8):**
 
 ```text
 JULIET:
-The king is a foul tender foe.
+And let us mark me kill my heart.
 
-Page:
-Good Paul, tell me, god my lords, did I learn,
-Before I be satisfied by her driver, and yet?
+DUKE VINCENTIO:
+So shall see that have thou seen the king.
 
-BUCKINGHAM:
-Why, is it not to come?
+Provost:
+Ay, pity, sir; we must be spoke out at you.
 
-Pursuivant:
-But sir, my lord, you know not a horseman in
-that fast way have violent of the heavens,
-Which never turns me said 'Cori
+Provost:
+Now just, for I have sent me to do them slander.
+
+LUCIO:
+I never dream so tender: so out to see your son
+only.
+
+DUKE VINCENTIO:
+Now with one o
 ```
 
 **Greedy (T = 0), 120 characters:**
@@ -75,23 +84,21 @@ What, is
 
 ## Prompt 3: `'First Citizen:\n'`
 
-*valid-word rate 0.96, distinct-2 1.00, 4-gram repetition 0.00*
+*valid-word rate 0.97, distinct-2 1.00, 4-gram repetition 0.00*
 
 **Sampled (T = 0.8):**
 
 ```text
 First Citizen:
-Say, in the vapel of the Tower of French,
-Whose shall this wander brought to the complaint
-That you are but like a life and scorns.
+You will draw the senate is unralled aloud;
+Which I am a better sour, sir, a very respect,
+And seeing to do them as the that heart.
 
-ROMEO:
-O gentleman, noise!
-
-Second Citizen:
-But she is contention like an execution.
-Sirrah, good Capulet! the gods, have spoke down shed
-With such shepherd's eyes, st
+MENENIUS:
+The news of our better ends can be too chatch'd
+To have my plaints. To offend the oracle,
+Which was true, and Rome, is my fault and live,
+To you answer said.
 ```
 
 **Greedy (T = 0), 120 characters:**
@@ -114,22 +121,21 @@ What is the matter?
 
 ## Prompt 4: `'KING RICHARD III:\n'`
 
-*valid-word rate 1.00, distinct-2 0.98, 4-gram repetition 0.00*
+*valid-word rate 0.96, distinct-2 0.98, 4-gram repetition 0.00*
 
 **Sampled (T = 0.8):**
 
 ```text
 KING RICHARD III:
-Well, faith, my lord, dear my defend Lord;
-And let me this stones be too much merrily:
-The did Sicilia, I'll swear.
+Speak the fall of this princely father's pleasure,
+And fear the people of war; so he hath
+To reward the Capelets and fallse, or for maid
+To do wear the breath of the waning draws.
 
-DUKE OF AUMERLE:
-Hold me to my common land,
-And stand I did forswear this heart's curse;
-And that through the region of many news?
-That if it be made me to the bed, the store
-That our
+KING RICHARD III:
+Nay, by cheerful flowers and the moon of the
+fruit father and else would permit her company
+The house
 ```
 
 **Greedy (T = 0), 120 characters:**
@@ -147,24 +153,21 @@ And then the devil
 
 ## Prompt 5: `'To be, or not to be'`
 
-*valid-word rate 0.95, distinct-2 1.00, 4-gram repetition 0.00*
+*valid-word rate 0.95, distinct-2 0.98, 4-gram repetition 0.00*
 
 **Sampled (T = 0.8):**
 
 ```text
-To be, or not to be true.
+To be, or not to be done.
 
-MENENIUS:
-O, Isabel, a great word
-To tell you?
-
-MENENIUS:
-That's a much of consort:
-We have been kill the people:
-You, look to your denies hath been in the strength,
-To whose points we still be lost. Let's away
-The noble tottes; for I cannot be bain
-Aside myself from these sights and men's t
+CLEOMENES:
+Why, belike, let's see the charter's war,
+And the heart o' the firmament: in the heart
+Is the law that doth appear i' the court
+Which take it on't; for they mean their pleasure,
+Find their thrust-bedast them have still bear it
+With foul kinsman, your tongues will hack, if I
+Do him
 ```
 
 **Greedy (T = 0), 120 characters:**
@@ -177,23 +180,21 @@ Which they shall be the common that word in the
 
 ## Prompt 6: `'The future of artificial intelligence'`
 
-*valid-word rate 0.94, distinct-2 1.00, 4-gram repetition 0.00*
+*valid-word rate 0.95, distinct-2 0.98, 4-gram repetition 0.00*
 
 **Sampled (T = 0.8):**
 
 ```text
 The future of artificial intelligence,
-Which once of more preparation will say
-Than I should call thee to thy strange shall
-With instatiate traitors, which now thou shalt have made
-The bawdy crown trees beloving the earth.
+To take a point more pardon of that shoes:
+I saw it noble Hector
+Be a true crown'd with a centre whore is now with
+A little penitent coat and gave to hell.
 
-GREMIO:
-A reselves, for our sword, man! Who's best vow?
-
-HORTENSIO:
-He had not forgot to your short succeeding,
-A
+HENRY BOLINGBROKE:
+So tups the neighbour of my love intends
+The crown cedit of his wit and that my shout,
+Shall set the cause the reward in b
 ```
 
 **Greedy (T = 0), 120 characters:**

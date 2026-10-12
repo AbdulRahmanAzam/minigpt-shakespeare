@@ -28,9 +28,9 @@
     "device": "cpu",
     "cpu_threads": 8
   },
-  "train_time_s": 9.743485999992117,
-  "wall_clock_s": 11.098173999998835,
-  "tokens_per_s": 15764.378375473036,
+  "train_time_s": 4.384888400032651,
+  "wall_clock_s": 5.208997399997315,
+  "tokens_per_s": 35029.39778327227,
   "peak_memory_mb": null,
   "final_train_loss": 0.026060637086629868,
   "final_val_loss": 8.726486206054688,

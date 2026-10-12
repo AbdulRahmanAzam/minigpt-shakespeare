@@ -12,16 +12,17 @@ from __future__ import annotations
 import argparse
 import math
 import re
+from collections import Counter, defaultdict
 from pathlib import Path
 
 import torch
 
 from experiments.text_metrics import all_metrics
 from src.checkpoint import load_checkpoint
-from src.dataset import encode_split, load_split
+from src.dataset import encode_split, load_split, make_loader
 from src.generate import generate_text, resolve_checkpoint
 from src.train import evaluate_loss
-from src.utils import format_count, pick_device, pick_precision, read_json, write_json
+from src.utils import autocast, format_count, pick_device, pick_precision, read_json, write_json
 
 OUT_EVAL = Path("outputs/eval")
 OUT_SAMPLES = Path("outputs/samples")
@@ -34,6 +35,34 @@ FIXED_PROMPTS = [
     "To be, or not to be",
     "The future of artificial intelligence",
 ]
+
+
+@torch.no_grad()
+def next_char_accuracy(model, ids: torch.Tensor, T: int, device, precision: str, batch_size: int = 64) -> dict:
+    """Top-1 / top-5 next-character accuracy over non-overlapping windows (same positions as the loss)."""
+    model.eval()
+    loader = make_loader(ids, T, batch_size, stride=T, shuffle=False, drop_last=False)
+    top1 = top5 = n = 0
+    for x, y in loader:
+        x, y = x.to(device), y.to(device)
+        with autocast(device, precision):
+            logits = model(x).logits.float()
+        top = logits.topk(5, dim=-1).indices                          # (B, T, 5)
+        top1 += (top[..., 0] == y).sum().item()
+        top5 += (top == y.unsqueeze(-1)).any(-1).sum().item()
+        n += y.numel()
+    return {"top1": top1 / n, "top5": top5 / n}
+
+
+def ngram_accuracy(train: str, text: str, n: int) -> float:
+    """Accuracy of always predicting the most frequent next character after the previous n-1 characters."""
+    table: dict[str, Counter] = defaultdict(Counter)
+    for i in range(n - 1, len(train)):
+        table[train[i - n + 1: i]][train[i]] += 1
+    fallback = Counter(train).most_common(1)[0][0]
+    best = {ctx: c.most_common(1)[0][0] for ctx, c in table.items()}
+    hits = sum(best.get(text[i - n + 1: i], fallback) == text[i] for i in range(n - 1, len(text)))
+    return hits / (len(text) - n + 1)
 
 
 def test_segments(model, tok, T: int, device, precision: str) -> dict:
@@ -79,7 +108,15 @@ def main() -> None:
         loss = evaluate_loss(model, ids, T, 64, device, precision)
         results[split] = {"loss": loss, "perplexity": math.exp(loss), "bits_per_char": loss / math.log(2),
                           "tokens": len(ids)}
-        print(f"{split:<5} loss {loss:.4f} | perplexity {math.exp(loss):.3f} | bits/char {loss / math.log(2):.3f}")
+        acc = next_char_accuracy(model, ids, T, device, precision)
+        results[split].update({"top1_accuracy": acc["top1"], "top5_accuracy": acc["top5"]})
+        print(f"{split:<5} loss {loss:.4f} | perplexity {math.exp(loss):.3f} | bits/char {loss / math.log(2):.3f} | "
+              f"next-char accuracy top-1 {100 * acc['top1']:.2f}% top-5 {100 * acc['top5']:.2f}%")
+    train_text, val_text = load_split("data", "train"), load_split("data", "val")
+    results["baseline_accuracy_val"] = {name: ngram_accuracy(train_text, val_text, n)
+                                        for n, name in ((1, "most_frequent_char"), (2, "bigram"), (3, "trigram"))}
+    print("baseline top-1 accuracy on val: " + ", ".join(
+        f"{k} {100 * v:.2f}%" for k, v in results["baseline_accuracy_val"].items()))
     results["test_segments"] = test_segments(model, tok, T, device, precision)
     baselines_path = OUT_EVAL / "baselines.json"
     if baselines_path.exists():
