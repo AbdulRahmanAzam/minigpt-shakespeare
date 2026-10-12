@@ -17,7 +17,7 @@ else
   git worktree add -q --detach "$TMP"
   git -C "$TMP" checkout -q --orphan deploy
 fi
-git -C "$TMP" rm -rq --ignore-unmatch . >/dev/null
+git -C "$TMP" rm -rqf --ignore-unmatch . >/dev/null
 for f in "${FILES[@]}"; do
   mkdir -p "$TMP/$(dirname "$f")"
   git show "HEAD:$f" > "$TMP/$f"
