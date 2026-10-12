@@ -1,0 +1,28 @@
+# Keeps the free SnapDeploy container awake so API calls never hit the "container is sleeping" 503 page.
+# A sleeping container is only woken by the platform's wake endpoint (the browser page calls it; curl does not),
+# so if /health fails we call it and wait until the server answers again.
+name: keep-alive
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      APP: https://minigpt-shakespeare.containers.snapdeploy.app
+      WAKE: https://snapdeploy.dev/api/public/wake/minigpt-shakespeare
+    steps:
+      - name: Ping, wake if asleep
+        run: |
+          if curl -fsS -m 30 "$APP/health"; then exit 0; fi
+          echo "container asleep, sending wake signal"
+          curl -sS -m 30 -X POST -H "Content-Type: application/json" "$WAKE" || true
+          for i in $(seq 1 40); do
+            sleep 6
+            if curl -fsS -m 20 "$APP/health"; then echo; echo "awake after $((i * 6)) s"; exit 0; fi
+          done
+          echo "container did not come back"; exit 1
