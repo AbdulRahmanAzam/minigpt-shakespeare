@@ -12,7 +12,7 @@ classes are used anywhere.
 | Data | Tiny Shakespeare (1.1 M characters), 90/5/5 split identical to the Hugging Face dataset |
 | Result | validation loss **1.353** nats/char (perplexity 3.87), next-char accuracy **60.0 %** (top-5 87.0 %) · test loss 1.530 |
 | Training | 3,000 steps, ~9 min on one RTX 3050 Laptop GPU (4 GB), bf16 |
-| Live demo | __DEMO_URL__ |
+| Live demo | [minigpt-shakespeare.containers.snapdeploy.app](https://minigpt-shakespeare.containers.snapdeploy.app) — [`/docs`](https://minigpt-shakespeare.containers.snapdeploy.app/docs), [`/model-info`](https://minigpt-shakespeare.containers.snapdeploy.app/model-info); `POST /generate` needs an `X-API-Key` header (sleeps when idle, first request wakes it in ~60–90 s) |
 | Colab | [`notebooks/MiniGPT_Colab.ipynb`](notebooks/MiniGPT_Colab.ipynb) (outputs of a full run are saved in the file; regenerate with `python scripts/build_notebook.py --execute`) — [open in Colab](https://colab.research.google.com/github/AbdulRahmanAzam/minigpt-shakespeare/blob/main/notebooks/MiniGPT_Colab.ipynb) |
 
 ```text
@@ -322,7 +322,7 @@ Observations → interpretations (kept separate on purpose):
    more than 256 characters back. Absolute sinusoidal/learned positions are not trained beyond 256.
 7. **No KV cache.** Each generated character re-runs the whole window (~25–40 characters/s on a laptop CPU).
    Fine for a demo; a KV cache would make generation O(T) per token instead of O(T²).
-8. **Free hosting cold starts.** The Render free instance sleeps when idle; the first request can take ~1 minute.
+8. **Free hosting cold starts.** The free SnapDeploy container sleeps when idle; the first request wakes it in ~60–90 s.
 
 ## 10. References
 
