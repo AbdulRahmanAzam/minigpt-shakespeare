@@ -1,0 +1,43 @@
+{
+  "run_name": "cand_d384",
+  "parameters": 10697472,
+  "parameters_human": "10.70M",
+  "model": {
+    "vocab_size": 65,
+    "context_length": 256,
+    "d_model": 384,
+    "n_heads": 6,
+    "n_layers": 6,
+    "ffn_dim": 1536,
+    "dropout": 0.3,
+    "pos_encoding": "sinusoidal",
+    "tie_weights": false,
+    "attn_impl": "manual",
+    "causal": true,
+    "bias": true
+  },
+  "steps": 3000,
+  "batch_size": 64,
+  "tokens_seen": 49152000,
+  "epochs": 48.96329545929986,
+  "precision": "bf16",
+  "hardware": {
+    "python": "3.12.14",
+    "torch": "2.11.0+cu128",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "device": "cuda",
+    "cpu_threads": 8,
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_memory_gb": 4.0
+  },
+  "train_time_s": 776.3704618000775,
+  "wall_clock_s": 823.799262200002,
+  "tokens_per_s": 63309.982049081475,
+  "peak_memory_mb": 2808.3583984375,
+  "final_train_loss": 1.104317006976923,
+  "final_val_loss": 1.361726962476282,
+  "final_val_ppl": 3.9029276947760247,
+  "best_val_loss": 1.3595248740938952,
+  "best_step": 2750,
+  "checkpoint_best": "checkpoints\\cand_d384\\best.pt"
+}

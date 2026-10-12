@@ -205,7 +205,23 @@ Test split: **1.530** overall — **1.261** on the part from an already-seen pla
 (never seen in training; see limitation 2). Fixed-prompt samples: [`outputs/samples/samples.md`](outputs/samples/samples.md)
 (≈97 % of generated words are real words from the corpus, 0 % repeated 4-grams at temperature 0.8).
 
-### 8.2 Ablations (Figure 9)
+### 8.2 Model selection (can the main model be improved?)
+
+The final model's limit is overfitting (train 1.065 vs val 1.353), so two standard fixes were tried with
+everything else unchanged (3,000 steps, same data and schedule). Logs: `outputs/logs/{tiny_gpt,cand_drop03,cand_d384}`.
+
+| candidate | params | dropout | peak LR | best val loss | train loss | training time |
+|---|---|---|---|---|---|---|
+| **final: d 256, 6 layers, 4 heads** | **4.77 M** | 0.2 | 2e-3 | **1.353** | 1.065 | 9 min |
+| more regularisation | 4.77 M | 0.3 | 2e-3 | 1.363 | 1.166 | 8 min |
+| bigger: d 384, 6 layers, 6 heads | 10.70 M | 0.3 | 1e-3 | 1.360 | 1.104 | 14 min |
+
+*Observation:* all three land within 0.01 nats; dropout 0.3 closes the train/val gap (0.29 → 0.20) but
+learns more slowly, and 2.2× more parameters do not help. *Interpretation:* with ~1 M training characters the
+model is data-limited — extra capacity is spent memorising, extra regularisation slows learning by about the same
+amount — so the smaller, faster model was kept.
+
+### 8.3 Ablations (Figure 9)
 
 Small base model (d_model 128, 4 layers, 4 heads, context 128, ~0.8 M parameters), 3,000 steps, 8,192 tokens/step,
 **one factor changed at a time**, 3 seeds each (mean ± std). Step time / tokens/s from the controlled benchmark
@@ -240,7 +256,7 @@ Observations → interpretations (kept separate on purpose):
   many predecessors it has), which is why it still learns something. Learned positions were slightly worse
   (+0.018) — 16 K extra parameters that must be learned from 1 MB of text, while sinusoidal positions come for free.
 
-### 8.3 Concept experiments
+### 8.4 Concept experiments
 
 - **Why Transformers ([`outputs/rnn_vs_transformer`](outputs/rnn_vs_transformer), Fig. 0):** a Python-loop RNN
   needs N sequential steps, so its time grows with N (≈0.1 s at N = 64 → ≈6 s at N = 2048; absolute values vary run to run because the loop is CPU-bound); our attention layer
@@ -263,7 +279,7 @@ Observations → interpretations (kept separate on purpose):
   (35 % repeated 4-grams, distinct-2 0.49); temperature 0.5–0.8 gives fluent, non-repeating text (valid words
   0.98–1.00); temperature 1.3 becomes diverse but misspelled (valid words 0.90). Top-k / top-p at 0.8–1.0 sit in between.
 
-### 8.4 Engineering notes
+### 8.5 Engineering notes
 
 - **Tuning:** peak LR swept over {3e-4, 6e-4, 1e-3, 2e-3, 3e-3, 4e-3} for 1,500 steps → 1.889, 1.624, 1.480, 1.390,
   1.373, 1.368. Gains flatten beyond 2e-3, so 2e-3 was used for the 2× longer final run (margin against instability).

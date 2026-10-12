@@ -1,0 +1,125 @@
+===== step 0 | val_loss 4.2492 =====
+ROMEO:?qfCxbDkRZkNdc.wj,ZTxOLOT,ebtK
+b:qYjCkMBbXA$3:XaSGgO-3DjMqc?gLTa
+hXbYVXJthXfNuwqcPMKG.tbVF dXlADvaLeWFw3cHPgRWk,fDE'nYuxz$INuX
+YoR&$LMtofCi&IIB!!&V!OW;KdYlN,,Ke3 ixYeYE,nIciK;lxW;HFGEdroG EsSXUBLqWklG
+
+===== step 250 | val_loss 2.1546 =====
+ROMEO:
+Alll if brid own, whe lay bear aisen bube to tand ruand
+Beatind he ar buphe us he heet?
+
+MEXEND:
+Ae awill my thand ard hour he owns, tof it he me mil;
+I ling es ifee sen cin lat Heaid ove the the me 
+
+===== step 500 | val_loss 1.7564 =====
+ROMEO:
+All before will and is the the disen boy
+And take and my calleants and that us crock.
+Where lady, ever crome.
+
+GLOUCESTER:
+When what to that come my folllow,
+What we sengeng lattemand ov the conquin 
+
+===== step 750 | val_loss 1.5854 =====
+ROMEO:
+Now before with a purson, but
+backed but our take and my comforts!
+You this us arm to become thou enjoy.
+
+DUKE VINCENTIO:
+No, to them of the common with the beg in eye,
+It not time in overs, and the 
+
+===== step 1000 | val_loss 1.5105 =====
+ROMEO:
+All thy brides?
+
+STANLEY:
+He may so?
+
+BUCKINGHAM:
+One some gates such by the world to before
+As a endward my father, and I make thy mooful there,
+Or would beats in the neck; ladies in the son,
+And no
+
+===== step 1250 | val_loss 1.4611 =====
+ROMEO:
+You have now off, which you that you beauty envy
+graves the change arm the purpose of back:
+And all away, and that a wizons he own proof,
+And be this nowledge griefe stormingle is
+the overtain. I kno
+
+===== step 1500 | val_loss 1.4221 =====
+ROMEO:
+No; but this is a word of blood: so much
+A well thrue made to answer than foul hath been
+To lay aneguard with himself that makes him to the child
+Of his liberty in ensent, will it there by
+The covert
+
+===== step 1750 | val_loss 1.4108 =====
+ROMEO:
+Now, I had done and in the servanter boar,
+And may not straight him to thee usurp,
+And as did him enjoy to his face,
+And to heaven his foilice of my father,
+We might send in this maids virtue,
+And li
+
+===== step 2000 | val_loss 1.3879 =====
+ROMEO:
+All thy brows will be long to be so much,
+Or take the more tale her brother us are to be.
+
+DUKE VINCENTIO:
+And fall out of my noble mother, I beseech you
+Which you were acceptainst in over-part;
+Wher
+
+===== step 2250 | val_loss 1.3825 =====
+ROMEO:
+You have no coward to lay betray the boar
+Of the grave of all answer'd the purpose.
+
+MERCUTIO:
+Have you no longer to your most officer,
+Because the land to catch the senator lates
+And overtain the li
+
+===== step 2500 | val_loss 1.3681 =====
+ROMEO:
+Alack, and who dares all, but back on the day.
+Stirr'd the gates star by the world to bed,
+That affection with fall out of the own
+From the heavens wherein was misery?
+
+PARIS:
+With cloth the country 
+
+===== step 2750 | val_loss 1.3655 =====
+ROMEO:
+All thy brows will be lay by my cheeks?
+
+BUCKINGHAM:
+I think they be this foul of her back:
+And affraint with her daughter's daughter's face,
+When it must be employed by mine arms.
+
+BUCKINGHAM:
+I kno
+
+===== step 3000 | val_loss 1.3632 =====
+ROMEO:
+All thy brows will be long to be so much
+As ever grave thee and her brother uses,
+Whether did have sure the confine of his man.
+
+GREMIO:
+Madam, that we will be mine, since I lay to claim thee,
+Which 
+

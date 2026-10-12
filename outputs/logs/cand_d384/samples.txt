@@ -1,0 +1,134 @@
+===== step 0 | val_loss 4.3372 =====
+ROMEO:?qfnxbDkRZkNdc'wf,ZTxOLOT,ybtK
+b:cPWJkMBbzA$3:XaSGJO-3ISM:d?YLTa
+hX:LVXJtpXfNuwqhJMxv.tbar dXlrDZaLeWDwqcHPmRWI,fDEda3zxzCImmX
+YoR&$LMtofXiEIhB!!&V!OW;nd!
+Wxcue3:ixweuEOn3ciK;lxq;HFtEdroG EtSXUB;qWk J
+
+===== step 250 | val_loss 2.1495 =====
+ROMEO:
+You becet incer af thar wert madiest bube to tand O-d my dalded
+My ard that us he heet ar ding
+cate awice my thand ar my tought
+what tof it he me mil thill, bes ifee sen cin;
+St Hel diov the and the 
+
+===== step 500 | val_loss 1.7675 =====
+ROMEO:
+All before will and is the the diself,
+Fear envather'd the gate
+My artithar us of his barderlancaness.
+
+MENENIUS:
+I come to heavens, to that I confil now
+What shirde send in late maid ov the confece
+
+
+===== step 750 | val_loss 1.5799 =====
+ROMEO:
+You have now own, and learn that you boasom.
+
+CLARENCE:
+Beat hath been thee us of his back that and away,
+And none arm honour
+Your proofices come mile discacure is east.
+
+CAMILLO:
+Give God's and the 
+
+===== step 1000 | val_loss 1.4918 =====
+ROMEO:
+No; but this world, is not the disposion,
+Of that Oxford day talks are that us all them
+From thou enjoices of thy daughterous
+Your prooficiance, that now in a griefers,
+I'll late make overtain.
+
+Firs
+
+===== step 1250 | val_loss 1.4418 =====
+ROMEO:
+You before your beauty and the disposities of a
+virtue the gate
+My wrant after his very complainal,
+And some than the more man of the office common with the beggins,
+Even in the Hereford that Bohemia
+
+===== step 1500 | val_loss 1.4060 =====
+ROMEO:
+Now, sir, you will keep you to die.
+
+MENENIUS:
+Sirrah, you give him to the purpose of you die.
+
+CORIOLANUS:
+What's a wind of the field?
+
+MENENIUS:
+O would that you were hence?
+
+MENENIUS:
+It is the no
+
+===== step 1750 | val_loss 1.3931 =====
+ROMEO:
+No; but this is a purpose but
+back of Barnardine hath some gates such at her
+with his back that a finger way.
+
+PRINCE EDWARD:
+You shall find you to the world.
+
+RICHARD:
+I hear them in the sea, and le
+
+===== step 2000 | val_loss 1.3768 =====
+ROMEO:
+Now far thy coward, is not thy death but but talk?
+
+NORTHUMBERLAND:
+What if thou shalt be distinate away?
+
+KING RICHARD III:
+
+YORK:
+My fair cousin! What, in a grief, son mine?
+With cloud thou the kni
+
+===== step 2250 | val_loss 1.3698 =====
+ROMEO:
+Now before we will be long to be set and but
+Take and my cold and be this foul of his back:
+And all my crown for sun an old with him.
+
+Second Murderer:
+You will in the neck. This may I should be
+Will
+
+===== step 2500 | val_loss 1.3613 =====
+ROMEO:
+No; but this is a purpose but
+back of our deed-faced to the charge: but he was a
+man. What is his enemy?
+
+PETRUCHIO:
+I would have set of this better would be
+exiled, send in this man to be past of lo
+
+===== step 2750 | val_loss 1.3595 =====
+ROMEO:
+Now before we will be left to be a woman
+And take and strange and barriage out of his back:
+As was, away, what fall of God's daughter's figure!
+But what like their eyes accessaries in their general p
+
+===== step 3000 | val_loss 1.3617 =====
+ROMEO:
+No; but this is a purpose but
+back on the dangerous and the charge and thee
+use of the free armoure and rup and not to be our
+noble man till I come to dinner.
+
+ROMEO:
+In mine army that vantage of me 
+
