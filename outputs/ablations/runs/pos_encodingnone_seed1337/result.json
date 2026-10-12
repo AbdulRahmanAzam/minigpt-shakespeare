@@ -1,0 +1,19 @@
+{
+  "name": "pos_encodingnone_seed1337",
+  "seed": 1337,
+  "overrides": [
+    "model.pos_encoding=none"
+  ],
+  "parameters": 809984,
+  "final_val_loss": 1.7231100827798076,
+  "best_val_loss": 1.7231100827798076,
+  "final_train_loss": 1.6225769766445817,
+  "train_time_s": 115.24992959994415,
+  "tokens_per_s": 213240.9111685211,
+  "peak_memory_mb": 330.86767578125,
+  "valid_word_rate": 0.7674326109565168,
+  "distinct_1": 0.7900469404390478,
+  "distinct_2": 0.9892997774353707,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nYou before will and is and the dispok of our take\nOn the day hands art that us hath bedy.\n\nDUKE VINCENTIO:\nAnd fallace morouse of the of in heart milend;\nWhich miste sengene ladist in overs, and the now\nWilll be sel lin a was this me deave speak;\nSirst, why he's nour or opeselaves home.\nWho the mak"
+}

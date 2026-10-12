@@ -1,0 +1,21 @@
+{
+  "name": "context_length64_seed1339",
+  "seed": 1339,
+  "overrides": [
+    "model.context_length=64",
+    "train.batch_size=128"
+  ],
+  "parallel": true,
+  "parameters": 809984,
+  "final_val_loss": 1.5246575267388818,
+  "best_val_loss": 1.5246575267388818,
+  "final_train_loss": 1.4020468236110788,
+  "train_time_s": 343.1001185000059,
+  "tokens_per_s": 71629.23786632145,
+  "peak_memory_mb": 274.8515625,
+  "valid_word_rate": 0.8892371995820273,
+  "distinct_1": 0.8365726227795193,
+  "distinct_2": 1.0,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nHold, when you have more stone, or there and creation,\nWho's the king of Norfolk, my lord:\nThe crown book on the unrue that thou art guestly.\n\nCORIOLANUS:\nI for me, good tell,\nA pass still with the haurts where do band with\nWith his heart hope sweeted we of this death,\nThe this sons and father's ba"
+}

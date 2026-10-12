@@ -1,0 +1,65 @@
+===== step 0 | val_loss 4.1973 =====
+ROMEO:szcl'nCZkG$oczIg,$vKhSULMQQNRTvl:xA'$rvrYlASBGcNhSBHCQkK&aRngpFQn'khhizo&ANomrx$Ny.mT'HKEZJf&yz cvnW
+W-JoXJrnK$Kqq&jrhyr-ldB'inoV'!ebvgu
+
+kliIkzHXTBi'TUKelXPNfKC-H?gXKpy$..eOralXRWZC
+mTcj$Hz y-TN?OlpE
+
+===== step 500 | val_loss 1.9586 =====
+ROMEO:
+Hold the boove of beard a to hath hire was trought,
+So then poond housor and be you so a munge cond
+Were trouth surray, lel'd ollder gue mliak!
+
+TEONTUS:
+I hat sir, to he ell the sould in my theeelp
+
+
+===== step 1000 | val_loss 1.7378 =====
+ROMEO:
+Hold the bood greath, my stone exter,
+Dillo what there then post in is our may heaven
+Of the men thee done of thy pray, lady bold from a
+mlieve theirs to oneful me,
+With tell the souls pers you to po
+
+===== step 1500 | val_loss 1.6321 =====
+ROMEO:
+Hold the boy?
+
+DUKE VINCENTIO:
+Pray's richard! he with then powers; and not the sweet
+Of the men that would at the rayry do't of thee,
+That I did upon the very of in peecee of this lost:
+He yet then,
+
+===== step 2000 | val_loss 1.5715 =====
+ROMEO:
+Hold, when you have more stone to his richer crection,
+Of not such him our majesty, and wife men: how to senst
+Of true, let's grace, go lord, and upon the very
+so?
+
+KING RICHARD II:
+I can did me? let
+
+===== step 2500 | val_loss 1.5409 =====
+ROMEO:
+Hold, where I would brink to harm him.
+
+Third Citizen:
+What poor you some of the world of father:
+Where hard they are a lament like the laliants
+To his else for me, good tell the sea still'd to the
+h
+
+===== step 3000 | val_loss 1.5247 =====
+ROMEO:
+Hold, when you have more stone, or there and creation,
+Who's the king of Norfolk, my lord:
+The crown book on the unrue that thou art guestly.
+
+CORIOLANUS:
+I for me, good tell,
+A pass still with the h
+

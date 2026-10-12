@@ -123,8 +123,10 @@ def main() -> None:
     for name in models:
         a1.plot(Ns, [r[name]["ms"] for r in rows], "o-", label=name)
         a2.plot(Ns, [r[name]["peak_mb"] for r in rows], "o-", label=name)
-    for a, yl, t in ((a1, "forward + backward time (ms)", "time grows with N for recurrence (N serial steps)"),
-                     (a2, "extra peak GPU memory (MB)", "attention memory grows ~N^2 (score matrix)")):
+    for a, yl, t in ((a1, "forward + backward time (ms)",
+                      "python-loop RNN: ~linear in N (N serial steps); cuDNN GRU hides the\n"
+                      "loop inside one fused kernel; attention jumps once N^2 scores exceed GPU memory"),
+                     (a2, "extra peak GPU memory (MB)", "recurrence memory ~N, attention memory ~N^2 (B x H x N x N scores)")):
         a.set_xscale("log", base=2)
         a.set_yscale("log")
         a.set_xlabel("sequence length N")

@@ -1,0 +1,20 @@
+{
+  "name": "n_layers2_seed1338",
+  "seed": 1338,
+  "overrides": [
+    "model.n_layers=2"
+  ],
+  "parallel": true,
+  "parameters": 413440,
+  "final_val_loss": 1.6357592407314256,
+  "best_val_loss": 1.6357592407314256,
+  "final_train_loss": 1.5425299581440015,
+  "train_time_s": 292.5129380999715,
+  "tokens_per_s": 84016.79652064045,
+  "peak_memory_mb": 185.3603515625,
+  "valid_word_rate": 0.8778528601786798,
+  "distinct_1": 0.8031431607251279,
+  "distinct_2": 0.9944444444444445,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nHe was what not this my voice time.\n\nPAULINA:\nMy lord, but your woman his desired being my liber\nAs a landish but and these plardal of my lord,\nI she does best nature break our there,\nAdvicious in which more by my before your brows:\nNot it to to Bid me your was banishly faith,\nTo love him prince an"
+}

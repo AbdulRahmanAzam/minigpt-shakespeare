@@ -1,0 +1,66 @@
+===== step 0 | val_loss 4.1352 =====
+ROMEO:jmhTF'OMlwSjP3 'C$YirgGGzv; xWUFiMuo?;l$D&KMtn XvrY&T!$OOJTsyOsZFTLmEhLhi:aA qmKibE$UKS$e -HlXbhWua.Da l3'XiODDzRMC?w-gCjYsvKTm&.qC,KdkSxYPy$LIFOIZQDCddBKNXKVoezn!tbqIt&.CmjeousmY- rm,W!dScN
+&vC.iuYN3
+
+===== step 500 | val_loss 1.9612 =====
+ROMEO:
+Shoughtler blove, if I boood woild.
+
+PRIOM:
+What bother, thy so wome disend sising and e thon;
+What a lave in but and of sthem rong of musint the sond
+As in of blie how my loust nor gaid, the to man 
+
+===== step 1000 | val_loss 1.7635 =====
+ROMEO:
+Hey not was not this much of worduty;
+To hath her professt to this when dan sistred
+Of him lible as a laveition.
+
+CORIOLANUS:
+Which you countremess the son to sent brown
+Not usmer when dection that a
+
+===== step 1500 | val_loss 1.6393 =====
+ROMEO:
+Here's what not this much of words.
+
+PAULINA:
+My lord,
+Or soft all when day sir, what I would here.
+
+KING RICHARD III:
+So, he tribuness to high of your soul's noble
+It never us there, he court that t
+
+===== step 2000 | val_loss 1.5787 =====
+ROMEO:
+He day, what he this much of York, whom shall be be
+heavens from the daid stems, and of my liberch.
+
+KING EDWARD IV:
+Now stays 'tis death you wood not thou art not,
+Which alous there, he courted upon
+
+===== step 2500 | val_loss 1.5452 =====
+ROMEO:
+He was what not this much of York!
+
+Clown:
+Go here the bots from the kingly sister of thy honour!
+
+DUKE VINCENTIO:
+O, these he with death it, thou cannot it see
+With them and smellow, he can their wa
+
+===== step 3000 | val_loss 1.5325 =====
+ROMEO:
+He was what not this much of York; yet is Marcius.
+
+KING RICHARD III:
+Will you have been thou have latest it is.
+
+CORIOLANUS:
+What, what sir, thou had thou do not be them
+And small'd, he can that suc
+

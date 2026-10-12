@@ -1,0 +1,20 @@
+{
+  "name": "n_heads8_seed1338",
+  "seed": 1338,
+  "overrides": [
+    "model.n_heads=8"
+  ],
+  "parallel": true,
+  "parameters": 809984,
+  "final_val_loss": 1.5417930756492175,
+  "best_val_loss": 1.5417930756492175,
+  "final_train_loss": 1.4466616181121474,
+  "train_time_s": 603.8887274999724,
+  "tokens_per_s": 40696.239026917625,
+  "peak_memory_mb": 472.0263671875,
+  "valid_word_rate": 0.9077723043240283,
+  "distinct_1": 0.8058748403575989,
+  "distinct_2": 1.0,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nShould what not this much of York;\nPale you a great, therefore all the is son,\nTo down him liber and the pities of which stays ring\nAs must the other to be as and behold,\nAnd smell'd, he come to me. But more my brother.\n\nDUKE OF AUMERLE:\nSir, to Bisham! O provost for live it she way\nwe for his love"
+}

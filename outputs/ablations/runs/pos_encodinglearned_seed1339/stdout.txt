@@ -1,0 +1,42 @@
+
+=== pos_encodinglearned_seed1339 ===
+device=cuda (NVIDIA GeForce RTX 3050 Laptop GPU) precision=bf16
+params=826,368 (826.4K)  vocab=65  context=128  train_tokens=1,003,854  windows/epoch=1,003,726
+[eval] step      0 | train 4.2285 | val 4.2215 (ppl 68.13)  *best*
+step    100 | epoch 0.816 | lr 1.00e-03 | loss 3.0952 | 53k tok/s
+step    200 | epoch 1.632 | lr 9.97e-04 | loss 2.4519 | 60k tok/s
+step    300 | epoch 2.448 | lr 9.90e-04 | loss 2.3822 | 57k tok/s
+step    400 | epoch 3.264 | lr 9.77e-04 | loss 2.2911 | 56k tok/s
+step    500 | epoch 4.080 | lr 9.59e-04 | loss 2.1838 | 57k tok/s
+[eval] step    500 | train 2.0552 | val 2.1086 (ppl 8.24)  *best*
+step    600 | epoch 4.896 | lr 9.36e-04 | loss 2.0872 | 58k tok/s
+step    700 | epoch 5.712 | lr 9.09e-04 | loss 2.0072 | 58k tok/s
+step    800 | epoch 6.528 | lr 8.77e-04 | loss 1.9371 | 56k tok/s
+step    900 | epoch 7.344 | lr 8.42e-04 | loss 1.8787 | 56k tok/s
+step   1000 | epoch 8.161 | lr 8.03e-04 | loss 1.8278 | 56k tok/s
+[eval] step   1000 | train 1.7064 | val 1.8439 (ppl 6.32)  *best*
+step   1100 | epoch 8.977 | lr 7.61e-04 | loss 1.7857 | 70k tok/s
+step   1200 | epoch 9.793 | lr 7.17e-04 | loss 1.7420 | 93k tok/s
+step   1300 | epoch 10.609 | lr 6.71e-04 | loss 1.7151 | 99k tok/s
+step   1400 | epoch 11.425 | lr 6.23e-04 | loss 1.6857 | 100k tok/s
+step   1500 | epoch 12.241 | lr 5.75e-04 | loss 1.6590 | 78k tok/s
+[eval] step   1500 | train 1.5687 | val 1.6850 (ppl 5.39)  *best*
+step   1600 | epoch 13.057 | lr 5.26e-04 | loss 1.6407 | 73k tok/s
+step   1700 | epoch 13.873 | lr 4.78e-04 | loss 1.6225 | 73k tok/s
+step   1800 | epoch 14.689 | lr 4.30e-04 | loss 1.6105 | 73k tok/s
+step   1900 | epoch 15.505 | lr 3.84e-04 | loss 1.5934 | 73k tok/s
+step   2000 | epoch 16.321 | lr 3.40e-04 | loss 1.5784 | 84k tok/s
+[eval] step   2000 | train 1.4919 | val 1.6059 (ppl 4.98)  *best*
+step   2100 | epoch 17.137 | lr 2.98e-04 | loss 1.5657 | 73k tok/s
+step   2200 | epoch 17.953 | lr 2.59e-04 | loss 1.5559 | 74k tok/s
+step   2300 | epoch 18.769 | lr 2.24e-04 | loss 1.5492 | 73k tok/s
+step   2400 | epoch 19.585 | lr 1.92e-04 | loss 1.5334 | 73k tok/s
+step   2500 | epoch 20.401 | lr 1.65e-04 | loss 1.5353 | 79k tok/s
+[eval] step   2500 | train 1.4499 | val 1.5709 (ppl 4.81)  *best*
+step   2600 | epoch 21.217 | lr 1.42e-04 | loss 1.5253 | 75k tok/s
+step   2700 | epoch 22.033 | lr 1.24e-04 | loss 1.5187 | 79k tok/s
+step   2800 | epoch 22.850 | lr 1.11e-04 | loss 1.5157 | 73k tok/s
+step   2900 | epoch 23.666 | lr 1.03e-04 | loss 1.5134 | 70k tok/s
+step   3000 | epoch 24.482 | lr 1.00e-04 | loss 1.5082 | 71k tok/s
+[eval] step   3000 | train 1.4326 | val 1.5524 (ppl 4.72)  *best*
+done in 6.4 min | final val 1.5524 | best val 1.5524 @ step 3000 | peak mem 331 MB

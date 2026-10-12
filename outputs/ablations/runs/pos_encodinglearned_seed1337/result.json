@@ -1,0 +1,19 @@
+{
+  "name": "pos_encodinglearned_seed1337",
+  "seed": 1337,
+  "overrides": [
+    "model.pos_encoding=learned"
+  ],
+  "parameters": 826368,
+  "final_val_loss": 1.5461262461782872,
+  "best_val_loss": 1.5461262461782872,
+  "final_train_loss": 1.4392662958167066,
+  "train_time_s": 115.84369510003307,
+  "tokens_per_s": 212147.92897255384,
+  "peak_memory_mb": 331.0556640625,
+  "valid_word_rate": 0.933194096351991,
+  "distinct_1": 0.8018936229462547,
+  "distinct_2": 0.9835975943138328,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nYou have now own, which you that seek of our save?\n\nQUEEN ELIZABETH:\nNot me us are to become thou enjoy.\n\nDUKE VINCENTIO:\nNo,\nYou shall the comme made did but soils,\nEven in the Heaven's time of the news in wail!\nAll in you have she courted at princess,\nwhy hell not nor of this desire\nIs would that"
+}

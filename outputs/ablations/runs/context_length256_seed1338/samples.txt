@@ -1,0 +1,67 @@
+===== step 0 | val_loss 4.1761 =====
+ROMEO:jmhTF'OMlwSjP3 'C$YirgGGzv; xWUFiMuo?;l$D&KMtn XvrY&T!$OOJTsyOsZF
+LmEhLhi:aA qiKibE$UKS$e -HlXbhWwi.Da l3v
+iOiDzRYF?w-gCjYsvKTm&.qC,KZkSxY3y$LIFOIZQQpuxBKNXKVovz3ltbqWt&.gmjexusm-- rm,GhdScN
+AvA.iuYN3
+
+===== step 500 | val_loss 2.1417 =====
+ROMEO:
+Shy noul, and the, sim, vo a woidus ale
+That a willl the that thith thaid sthising and
+Sith grom and to isising man lith sthes ringher
+Ther the o sond tho be tond bert bemann sand whe hanct
+And ind a
+
+===== step 1000 | val_loss 1.8649 =====
+ROMEO:
+Shoughtless not this my voor wordue all shall her.
+
+KING RICHARD IIIII:
+Was sir, what I would he as a love.
+
+DUKE VINCENTIO:
+A with what sir, thou caut mor to neath;
+Who, and say tread, fith that suc
+
+===== step 1500 | val_loss 1.7147 =====
+ROMEO:
+Should what not this my voortagieus all shall ground!
+O, thy stand when was sir, and of your blown.
+
+KING RICHARD II:
+These play as death you womes the sould tongs,
+Which alous theref hand a that suc
+
+===== step 2000 | val_loss 1.6408 =====
+ROMEO:
+Her not what this, and boy a wordst all shall be both
+Our should to heards and in be of your blown.
+
+ROMEO:
+Ay, my not dost play as dead?
+
+ELBOW:
+When I say, then, I thou amousand when dece
+And in wh
+
+===== step 2500 | val_loss 1.5953 =====
+ROMEO:
+Should what not this much of York;
+Or to his she both the storrow my daid,
+Which his off then; What a laidies but and these plard.
+
+CAMILLO:
+I'll not to be to sent between house now.
+
+Second Seniura 
+
+===== step 3000 | val_loss 1.5791 =====
+ROMEO:
+Should what not this much of York;
+Or to his she both the storrow met his son,
+To down him liber and the pities.
+
+CORIOLANUS:
+Which you could not son, I say see not hours,
+Would nor gate court and wa
+

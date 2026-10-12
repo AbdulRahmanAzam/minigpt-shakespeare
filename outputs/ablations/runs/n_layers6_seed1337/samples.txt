@@ -1,0 +1,68 @@
+===== step 0 | val_loss 4.1906 =====
+ROMEO:?qf;xbDkRZkNdc'wf,ZTkOLOT,eRtK
+bH!PjCkMBbzA$3:.aSvgO-3ISMBd?gLTa
+hX:LVXJthXeNuwqcP,xG.tbaF dXl!DZaLeWFwHcHPpRWk,fDEZaYzxzoIoWX
+Yo3&$LMtofViEIhB!!&V!OW;Kd!lWx,Ke3 ixYe-EYnkciK;lxW;HFGEdroG EsSXUBLqWk G
+
+===== step 500 | val_loss 2.0304 =====
+ROMEO:
+All thy bridcerd, hat lay be madised bube to tand ruand
+Beall and bart this us hat the ared ladsanes,
+Whe my thand a will oupe of the of it heart marked!
+Whout mirke son com latisttivelv the and the 
+
+===== step 1000 | val_loss 1.7620 =====
+ROMEO:
+You before will and is breath
+Your to Baccuse.
+She the let take her mant he us hath but hearl!
+
+GLEONTES:
+I have say of of my now, from that I comme.
+
+DUKE VINCENTIO:
+In mine a is that vition, and lo
+
+===== step 1500 | val_loss 1.6070 =====
+ROMEO:
+Now, I had we will that you have seem of our tarsh.
+3 KING HENRY VI
+
+MENENINCE:
+Be they hearly wase away, my facts, to God's day.
+
+LEONTES:
+I be this now, but good the necies at Hereford the deed?
+
+G
+
+===== step 2000 | val_loss 1.5345 =====
+ROMEO:
+You have now own, which you have seem of our hands
+that we gatest beat thee us of his back:
+And and away, my faces a wizons heavy speakful.
+
+BUCKINGHAM:
+What even we sent in the Hereford to thee.
+
+RI
+
+===== step 2500 | val_loss 1.5053 =====
+ROMEO:
+You have now own four on, but being my beaute.
+Stirrah, my liege such it is us another?
+
+MENENIUS:
+Why, sir, I farewell, I must with to the heart
+Of help on a grief, so hang latest in overture.
+
+WARW
+
+===== step 3000 | val_loss 1.4883 =====
+ROMEO:
+You have now own four on, but being a way,
+And manner made to answer that foul hath been
+Your hoar, away, my faces a wizons heavens
+More in heart made did but some ensue content;
+For the tears of me 
+

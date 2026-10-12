@@ -1,0 +1,20 @@
+{
+  "name": "n_layers6_seed1338",
+  "seed": 1338,
+  "overrides": [
+    "model.n_layers=6"
+  ],
+  "parallel": true,
+  "parameters": 1206528,
+  "final_val_loss": 1.4984839954595457,
+  "best_val_loss": 1.4984839954595457,
+  "final_train_loss": 1.3895568283124902,
+  "train_time_s": 640.7206720000104,
+  "tokens_per_s": 38356.80831599515,
+  "peak_memory_mb": 476.4990234375,
+  "valid_word_rate": 0.95134849286092,
+  "distinct_1": 0.8321875550854928,
+  "distinct_2": 0.9945355191256832,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nShould what not this much of York!\n\nClown:\nGo her.\n\nKING RICHARD III:\nWill this body of your blows. No seeing but maling straight.\n\nCAMILLO:\nIn I shall so be tongue how my lord,\nAnd gave to me an put of my souls son!\nBut, the brother, tell the very of my grace: but not\nFor the early well from all p"
+}

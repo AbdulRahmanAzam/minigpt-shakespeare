@@ -1,0 +1,20 @@
+{
+  "name": "context_length256_seed1337",
+  "seed": 1337,
+  "overrides": [
+    "model.context_length=256",
+    "train.batch_size=32"
+  ],
+  "parameters": 809984,
+  "final_val_loss": 1.5723137800594629,
+  "best_val_loss": 1.5723137800594629,
+  "final_train_loss": 1.4745022997878114,
+  "train_time_s": 220.98115740001958,
+  "tokens_per_s": 111213.10200902143,
+  "peak_memory_mb": 472.2763671875,
+  "valid_word_rate": 0.867208252034744,
+  "distinct_1": 0.7559036452159958,
+  "distinct_2": 1.0,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nYou before will and is not the diserable\nAnd take and my call and barrithment queen.\n\nPAULIXENA:\nAnd with my face, and God's fair the office come\nmay now my beg in entent, will is the overt,\nHe wife now on that speakly dispart the marnerity:\nAs that speak you love.\nI came the gods home.\n\nESCALUS:\nI"
+}

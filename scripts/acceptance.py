@@ -47,12 +47,13 @@ def main() -> None:
     print("  all imports ok")
 
     step(2, "unit tests")
-    print("  " + run([py, "-m", "pytest", "-q"]).strip().splitlines()[-1])
+    out = run([py, "-m", "pytest", "-p", "no:warnings"])
+    print("  " + next(l for l in reversed(out.splitlines()) if "passed" in l))
 
     step(3, "tiny overfit run (configs/overfit.yaml)")
     out = run([py, "-m", "src.train", "--config", "configs/overfit.yaml"])
-    losses = [float(m) for m in re.findall(r"loss (\d+\.\d+) \|", out)]
-    print(f"  training loss {losses[0]:.3f} -> {losses[-1]:.3f}")
+    losses = [float(m) for m in re.findall(r"\[eval\] step +\d+ \| train (\d+\.\d+)", out)]
+    print(f"  loss on the tiny training set: {losses[0]:.3f} (step 0) -> {losses[-1]:.3f} (step 300)")
     assert losses[-1] < 0.1 * losses[0], "overfit gate failed"
 
     step(4, "load final checkpoint in a fresh process")

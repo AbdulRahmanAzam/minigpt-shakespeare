@@ -1,0 +1,75 @@
+===== step 0 | val_loss 4.1370 =====
+ROMEO:jmhTF'OMlwSjP3 'C$YirgGGzv; xWUFiMuo?;l$D&KMtn XvrY&T!$OOJTsyOsZF
+LmEhLhi:aA qiKibE$UKS$e -HlXbhWwi.Da l3v
+iOiDzRYF?w-gCjYsvKTm&.qC,KdkSxY3y$LIFDIxQDndxBKNXKVovz3ltbqIt&XgmjenusmY- rm,a!dScN
+&vC.iuYN3
+
+===== step 500 | val_loss 2.0358 =====
+ROMEO:
+Hey noth and this, a my vo a wiill.
+
+Peast:
+Whave prate, thy so wime dhis besising and him
+lible a land isising marnce dost plord.
+
+
+CLOLAMELIO:
+You do mor dot not but nemaloust now gathe this ais
+No
+
+===== step 1000 | val_loss 1.7875 =====
+ROMEO:
+Here's what not this my voort time your shall grount!
+O, thy stake when day sir, what I would her such seal,
+Who that these plaring of misitter of your so.
+
+CAMILO:
+It never us there, he court that a
+
+===== step 1500 | val_loss 1.6463 =====
+ROMEO:
+He day, what this, and boy a word;
+Or to his all both they to this when day sin,
+And of you will as a laidies but made dost plare.
+
+CAMILLO:
+In I she dossidest not but never us there,
+And the cannot 
+
+===== step 2000 | val_loss 1.5817 =====
+ROMEO:
+He day, what this, and boy a words.
+
+PAULINA:
+My lord,
+Or striber me disdance, if I would him;
+Which then is you that these he reashed of your counted
+Beging to liberty.
+
+KING HENRY VI:
+Sir, that suc
+
+===== step 2500 | val_loss 1.5502 =====
+ROMEO:
+He was what not this much of York;
+Or this train but the plays and when day sin,
+And of your blow such seal in his?
+
+CORIOLANUS:
+So dead?
+
+ELBOW:
+What thou art not between house nor gate, the cannot 
+
+===== step 3000 | val_loss 1.5325 =====
+ROMEO:
+Hell'd what not this much of York;
+Or this trail both the storments than an sister,
+Or eyes now.
+
+DUKE VINCENTIO:
+Call they hath as death you the sunders are the statte.
+
+KING HENRY VI:
+Sir, that suc
+

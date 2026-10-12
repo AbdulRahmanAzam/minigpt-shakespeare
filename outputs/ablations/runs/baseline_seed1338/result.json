@@ -1,0 +1,18 @@
+{
+  "name": "baseline_seed1338",
+  "seed": 1338,
+  "overrides": [],
+  "parallel": true,
+  "parameters": 809984,
+  "final_val_loss": 1.5325300011141547,
+  "best_val_loss": 1.5325300011141547,
+  "final_train_loss": 1.4363696917720226,
+  "train_time_s": 463.39222450002853,
+  "tokens_per_s": 53034.98570032326,
+  "peak_memory_mb": 330.9296875,
+  "valid_word_rate": 0.8878160839120066,
+  "distinct_1": 0.8323990018249345,
+  "distinct_2": 1.0,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nHell'd what not this much of York;\nOr this trail both the storments than an sister,\nOr eyes now.\n\nDUKE VINCENTIO:\nCall they hath as death you the sunders are the statte.\n\nKING HENRY VI:\nSir, that such a more my lord!\n\nLADY CAPULET:\nPoor it to to Birna, your lame. What is a worse,\nSovereign him; I p"
+}

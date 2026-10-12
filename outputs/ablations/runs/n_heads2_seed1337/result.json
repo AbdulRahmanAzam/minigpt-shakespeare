@@ -1,0 +1,19 @@
+{
+  "name": "n_heads2_seed1337",
+  "seed": 1337,
+  "overrides": [
+    "model.n_heads=2"
+  ],
+  "parameters": 809984,
+  "final_val_loss": 1.5370296453607493,
+  "best_val_loss": 1.5370296453607493,
+  "final_train_loss": 1.4346515403396782,
+  "train_time_s": 82.22387290000916,
+  "tokens_per_s": 298891.2968121362,
+  "peak_memory_mb": 274.9296875,
+  "valid_word_rate": 0.8845012977382276,
+  "distinct_1": 0.7701149425287356,
+  "distinct_2": 1.0,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nYou before we will to life the disposities of a\nshrives that hangs are that us hath been to lady,\nBut consul. What's no prompetors or of this blood,\nTo will be mine the king lates that virtue,\nAnd not and leve me, less to the tenter of him.\n\nDUKE OF AUMERLE:\nHere is not doth lives; but you do to ki"
+}

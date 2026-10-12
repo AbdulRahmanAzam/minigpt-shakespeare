@@ -1,0 +1,57 @@
+===== step 0 | val_loss 4.2150 =====
+ROMEO:?qCzxbDkRZkNdc'wj,ZT,OLlT,eHtK
+b:!PTCkMBbzA$3:XaSGgO-3qSM:F?gLTa
+hX:YVXJtpXfNuwqc$MxG.tbfF dXl!DZaLeWFwccHPgRWk,fDE'nYzxzoIouX
+YoR&$FMtofVidIvB!!&V!$W;Kd!lNZ,
+e3 irYe-ERngciK;lxW;HFGEdroG EsSXUB;qWk G
+
+===== step 500 | val_loss 2.0645 =====
+ROMEO:
+You thy bridcerf, hat lay be madises bube to tanth
+Sand that hath bardith foulds the thar dilth ane
+Awick my thanst to ho mughtowns, tof it heart mithtlil
+As es iree sto cin latisttid ove the the me 
+
+===== step 1000 | val_loss 1.8071 =====
+ROMEO:
+You before whow and is and the disel boar doe.
+Stirnate the alands armith foul hather barder
+As and away, and have a with must of the of it.
+
+DUKE OF YORK:
+Warw if eye, I in lattent drove to he with 
+
+===== step 1500 | val_loss 1.6715 =====
+ROMEO:
+You before will and is the served of boar to take
+Our my day hands: and him us hath bed hearl.
+
+GLOUCESTER:
+When starry of my not some for the commil;
+And that misely blood; father, drove the death t
+
+===== step 2000 | val_loss 1.6073 =====
+ROMEO:
+You before will and is the trubs and boar,
+And while I the gate
+My arm that us hath bed he that ane away,
+And have a wizold heavens, to that I confil now
+Whices is enten mining is the overs, and the 
+
+===== step 2500 | val_loss 1.5736 =====
+ROMEO:
+You before will and in the true: and but our take
+Our strew and her raither us and to becoment
+Have away with hand a wizold heavens, to that I cover.
+
+ANGELO:
+Whiche send in the Hereford the countred
+
+===== step 3000 | val_loss 1.5562 =====
+ROMEO:
+You before we will to lay be made to be soul:
+You are my call and be this foul commonty
+The lady, endrect my father prize our abses
+More in heart mild did that misters, and that HereforG the heart
+no
+

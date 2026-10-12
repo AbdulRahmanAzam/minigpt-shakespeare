@@ -1,0 +1,20 @@
+{
+  "name": "pos_encodingnone_seed1339",
+  "seed": 1339,
+  "overrides": [
+    "model.pos_encoding=none"
+  ],
+  "parallel": true,
+  "parameters": 809984,
+  "final_val_loss": 1.7134268889481994,
+  "best_val_loss": 1.7134268889481994,
+  "final_train_loss": 1.6066660217855169,
+  "train_time_s": 333.49436380004045,
+  "tokens_per_s": 73692.39983538522,
+  "peak_memory_mb": 330.86767578125,
+  "valid_word_rate": 0.786885796867648,
+  "distinct_1": 0.8200001920510087,
+  "distinct_2": 1.0,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nHold the boody, broh, my sto hath herefolest couse,\nSo then pown in is our me; he must and my heart\nWho his at the lay the justy revel alll and in it\nA more for me agans tell to thee scon die more power.\n\nLADY ANLEY:\nWhy so your heart a know master, and how thing.\nRichard that hast theat thinefe bu"
+}

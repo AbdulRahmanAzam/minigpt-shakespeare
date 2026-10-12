@@ -1,0 +1,21 @@
+{
+  "name": "context_length256_seed1339",
+  "seed": 1339,
+  "overrides": [
+    "model.context_length=256",
+    "train.batch_size=32"
+  ],
+  "parallel": true,
+  "parameters": 809984,
+  "final_val_loss": 1.5660478931418211,
+  "best_val_loss": 1.5660478931418211,
+  "final_train_loss": 1.4436615397853236,
+  "train_time_s": 469.6402101999847,
+  "tokens_per_s": 52329.42040787972,
+  "peak_memory_mb": 472.2763671875,
+  "valid_word_rate": 0.8943052074631023,
+  "distinct_1": 0.7713032581453634,
+  "distinct_2": 0.9824455205811139,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nHold the boy?\n\nDUKE VINCENTIO:\nPray! Bring the hath days, not such out our man?\n\nPAULINE:\nMy lord lord, here them I have do't old ever a\nmost this is him of for me, good tell the soles,\nBut you tell with me I hear thy vut of\nBear my life. To master, and how this death,\nThe this sover basted thy cou"
+}

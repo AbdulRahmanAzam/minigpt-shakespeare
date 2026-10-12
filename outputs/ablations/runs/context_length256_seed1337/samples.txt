@@ -1,0 +1,59 @@
+===== step 0 | val_loss 4.2163 =====
+ROMEO:?qCnxbDkRZkNdc'wj,ZT,OLlT,eHtK
+b:!PTCkMBbzA$3:XaSGgO-3qSM:F?gLTa
+hX:YVXJtpXfNuwqc$MxG.tbfF dXl!DZaLeWFwccHPgRWk,fDE'nYzxzoIouX
+YoR&$FMtofCiaIvB!!&V!$W;Kd!lMZ,
+e3 ixYe-ERnkciK;lxW;HFGEdroG EsSXUBLqWk J
+
+===== step 500 | val_loss 2.1546 =====
+ROMEO:
+Alll if thid ow and is so be mad seak of of eave
+grtand mealied
+he ar bapie us he hent ar dingh ane awiced you,
+Thand my tou thou the of is he me mil;
+And buges is eesen cin lat Heaid ovets, and the 
+
+===== step 1000 | val_loss 1.8770 =====
+ROMEO:
+Your shall will and is so be made the was to take
+One my day tand barthiphed will her bar dile
+Have away, my fach the me to heavent
+Make in heart my foling, and if entend,
+A lating in ove the dent no
+
+===== step 1500 | val_loss 1.7197 =====
+ROMEO:
+Now thy brince.
+
+SORD OF GREY:
+His that you was the day meatinanss:
+Whith foul hath bebard that ane away,
+And none are honour
+Your proce in heart my follow, and if the namining.
+Here move the death t
+
+===== step 2000 | val_loss 1.6299 =====
+ROMEO:
+All before with a worse feath
+This take you envy graces the chause: and
+hath wear her barder thou enjuck, and hand
+a wizong heavens, to that I commilend like
+Which enten contration, and by the doth p
+
+===== step 2500 | val_loss 1.5890 =====
+ROMEO:
+You before will and is not the dispoked you will.
+On the day hands art that us and to be detle
+Have sweet my faces a will must off Lateful a come mile,
+But, and if the necients is the overt, and the 
+
+===== step 3000 | val_loss 1.5723 =====
+ROMEO:
+You before will and is not the diserable
+And take and my call and barrithment queen.
+
+PAULIXENA:
+And with my face, and God's fair the office come
+may now my beg in entent, will is the overt,
+He wife 
+

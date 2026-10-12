@@ -1,0 +1,71 @@
+===== step 0 | val_loss 4.2032 =====
+ROMEO:jmOXf'O
+!wSjP3 'C$YirRGGzv; xWUFiMuo?;l$u&KM?b Xvr.&
+!$OOJTkyOsZF
+LmEhLhi:aA qmKibE$UKS$e -HlXbhWwa.Da l3Z
+iiiDERYF?w-g-jYsvKzm&'qC,KdkSxY3y$LIFOIZQDndxBKNXKVovzn!tbqIt&nmmjenusm-- rm,W!dScN
+&v? iuqN3
+
+===== step 500 | val_loss 2.2918 =====
+ROMEO:
+Hey noul, ar thit, s my vo athtied.
+
+Penst:
+A her pontherts forer met hidan sisinod bour thon; mu sua lde isin won?
+
+
+CESABETERDUS:
+
+Anon y t thour nd telild t ndithit ng anousmen wng he cour t ind.
+
+
+===== step 1000 | val_loss 2.0037 =====
+ROMEO:
+Hey noteng blet, mist you; a word
+Whaten to a her.
+
+KING HARD II:
+Not his s siribode, I my libllor.
+
+KING ED ICE HARD IV:
+
+KI I'las we my you thou neat mor downeling themmanousmer wn,
+Ad courth ind a
+
+===== step 1500 | val_loss 1.8515 =====
+ROMEO:
+Hey not was not this my vo a word;
+Or to hat she bath grats fire
+And disdle sing of to my hing must andselie is.
+
+CORIOLANUS:
+Which you to higne, and to of to death,
+Whom anot me tread, father and wh
+
+===== step 2000 | val_loss 1.7842 =====
+ROMEO:
+Here's what not this my voort time.
+
+PRINCE LI:
+My lord, thy so womet his desir, a and him
+like with the aith sumpence tos, and fall my goods thee
+That so beseenct of when housand whe him the cainsur
+
+===== step 2500 | val_loss 1.7444 =====
+ROMEO:
+He fair! and this is my voiced it;
+Or to hath great, the plaint with daid,
+Which him ofe thou have a to blish but mallorns,
+That as death better, and to of to delibert be and smen wheard,
+And think a
+
+===== step 3000 | val_loss 1.7233 =====
+ROMEO:
+He fair! and this, a my voold time.
+
+PAULINA:
+Mercianus, thy so womet his son,
+The proce thou he as a land in but mallorns,
+That as death you the sond thou downe!
+And when housand whered come to man 
+

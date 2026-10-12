@@ -1,0 +1,68 @@
+===== step 0 | val_loss 4.1692 =====
+ROMEO:sHcl'neM.G$oc?Ig,$vKhFULMQQNRTvl:xA'$rvrYlASBGcNhSBMCQkK&aR'gpFQnkk;huzoXANomqx$NK.mTAHKEZJfmgK cvnW
+W-JoXJrnK$Kqq&.rhyr-ldB'iEoV'!ebvgu
+
+kliIkz?XTui'TU elXPNfKN-m?gXKpyX..eOEalXUWZC
+ Tc:$Gz y-TN?OlpE
+
+===== step 500 | val_loss 2.0706 =====
+ROMEO:
+Hold the boove hing of to to hath herer hant crech,
+To theng to ding for and be you a so the mect hourd hirn
+the uprty the 'to lire willl liaked duiss the ourty me
+agay the rald of a sthe dir morelpo
+
+===== step 1000 | val_loss 1.8493 =====
+ROMEO:
+Hold the booved, to more sto hand hare was trush
+Brodged,
+Or to that more of they my brown my enver
+With tractize art a call not the guel liends
+This have I first in peeater all not
+Ind was you then 
+
+===== step 1500 | val_loss 1.7288 =====
+ROMEO:
+Hold, whence, good horm of of you hard
+Than what there then possing as one me;
+Now, and wife men thou wom royal surrand leave of here,
+And you with the bloody you?
+
+KING EDWARD IV:
+
+I contray more po
+
+===== step 2000 | val_loss 1.6716 =====
+ROMEO:
+Hold the boy?
+
+DUKE VINCENTIO:
+Prayer, what what there then pown'd; and not they
+we as and my hear death trants a prayed do't:
+I he will me a fighting tellowful me,
+With tell the solmine are the with
+
+===== step 2500 | val_loss 1.6426 =====
+ROMEO:
+Hold the boy?
+
+DUKE VINCENTIO:
+Prayer, what what there then.
+
+QUEEN MARGARET:
+Ay, my lord.
+
+CAMILLIUS:
+Why, and surrant let's of here, and you with his else,
+To man the the rath of your wrong more po
+
+===== step 3000 | val_loss 1.6270 =====
+ROMEO:
+Hold the boy?
+
+DUKE VINCENTIO:
+Prayer, what what there then poon's him such and you,
+I am fear confould his course lay the justy of my from
+I with is lield, for me, good tell the souls,
+But you telp 
+

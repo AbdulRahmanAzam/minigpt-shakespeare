@@ -1,0 +1,61 @@
+===== step 0 | val_loss 4.1749 =====
+ROMEO:?qfzxbDkRZkNdc.wj,ZT,OLOT,eHtK
+b:!PTCkMBbzA$3:XaSGgO-33SMBc?gLTa
+hXbYVXJtpXfNuwqcOkxv.tbVF dXl!DZaLeWFw3cHPgRWk,fDEZaYzxzCIouX
+Yo3&$LMtofViEIvB!!&V!$W;Kd!lNZcSe3 ixYeYERnxciK;lxW;HFGidroG EsSXUB;qWk G
+
+===== step 500 | val_loss 2.1144 =====
+ROMEO:
+You be Rorid owild thal fert madiest bobe
+Of tand Ond my deacedess ar by he us his to by toulad ane
+Awick my thand at my tou thount
+Moof is he om mil ndilincees if ees,
+I in lat Het drove the the me 
+
+===== step 1000 | val_loss 1.8180 =====
+ROMEO:
+You before will and is to be mades;
+Thou but take Our my day hands: but hath will hert?
+First Some, away, my fearst to zonought
+what to that come milend like eyeldeend, heir ladisht,
+Wor the he wife 
+
+===== step 1500 | val_loss 1.6665 =====
+ROMEO:
+All thy brid own, a is the strange;
+Thou be ence hath my day hands: but him us heart.
+When that a endruck my face, and zongue
+Your proof in her that well me,
+Which enden mine at Hereford the deep me 
+
+===== step 2000 | val_loss 1.5950 =====
+ROMEO:
+You before will and is the time: and but our take
+One my call and barnity foul him to beck:
+And and away, my faces a will must of the of it.
+BUCKINGHAM:
+Why, their enten mine at Hereford the death. T
+
+===== step 2500 | val_loss 1.5670 =====
+ROMEO:
+You before will and is the time: and but our have
+Our streatied
+My world her will her back that a endrick,
+And fall to honour
+Yours, to that I confil much bout misely?
+
+PAULINA:
+Here invite, and the 
+
+===== step 3000 | val_loss 1.5461 =====
+ROMEO:
+You have now own, which you that seek of our save?
+
+QUEEN ELIZABETH:
+Not me us are to become thou enjoy.
+
+DUKE VINCENTIO:
+No,
+You shall the comme made did but soils,
+Even in the Heaven's time of the 
+

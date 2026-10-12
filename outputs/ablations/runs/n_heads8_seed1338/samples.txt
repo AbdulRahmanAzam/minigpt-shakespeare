@@ -1,0 +1,66 @@
+===== step 0 | val_loss 4.1370 =====
+ROMEO:jmhTF'OMlwSjP3 'C$YirgGGzv; xWUFiMuo?;l$D&KMtn XvrY&T!$OOJTsyOsZF
+LmEhLhi:aA qiKibE$UKS$e -HlXbhWwi.Da l3v
+iOiDzRYF?w-gCjYsvKTm&.qC,KdkSxY3y$LIFDIxQDndxBKNXKVovz3ltbqIt&XgmjenusmY- rm,a!dScN
+&vC.iuYN3
+
+===== step 500 | val_loss 2.0394 =====
+ROMEO:
+Ofor Ofllang this, sim, I or woith your shate ber.
+
+KING ICHOHART:
+Ell id s sising pione thon; What a lave
+Of she mall dost plord.
+
+
+CLOUCENGIUS:
+Whe tou ild the tou the manoust now gand,
+And this wa
+
+===== step 1000 | val_loss 1.7916 =====
+ROMEO:
+Here you, and the brood voorteried.
+
+PAPULET:
+My lord, but your will disdan sinibl proud thonk.
+
+PERCANTIO:
+Ay, my what not plardas you could the shee death's
+In to hou moren say tread, fir I have wa
+
+===== step 1500 | val_loss 1.6569 =====
+ROMEO:
+Should what not this much of York;
+O, to hath her pany betters all when day sin,
+Edwicke thou have lands and the want of strant.
+
+COMINIUS:
+Let I she to sir, then behold, and smee weep,
+Sir, that suc
+
+===== step 2000 | val_loss 1.5936 =====
+ROMEO:
+Should what not this much of York;
+Or to the sherk the both from of their son,
+To depore thou have lands and the want of strant.
+
+CORIOLANUS:
+So, sir, I say seen to bound and smell'd,
+Add the cannot 
+
+===== step 2500 | val_loss 1.5586 =====
+ROMEO:
+Should what not this much of York;
+Or to hither ripon the striber me disdance,
+To doth him liber and the pities of which stays reason?
+There't both the soulds noble hours and smell's ded,
+And this wa
+
+===== step 3000 | val_loss 1.5418 =====
+ROMEO:
+Should what not this much of York;
+Pale you a great, therefore all the is son,
+To down him liber and the pities of which stays ring
+As must the other to be as and behold,
+And smell'd, he come to me. 
+

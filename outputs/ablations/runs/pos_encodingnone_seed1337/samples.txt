@@ -1,0 +1,62 @@
+===== step 0 | val_loss 4.2060 =====
+ROMEO:?qf;xbDkRZkNdc.wj,ZT,OLOT,yHtK
+b:!PjCkMBbzA$3:.aSvgO-3 jMBd?gLTauhX:YVXJthXNNuwqcOM$G.tbfr dXl!DZaLeWFwccHPmRWk,fDEZnYzxzoIoQX
+YoR&$LMtofVidIvB!!&V!$W;Kd!lNZ,
+e3 ixYe-EYnhciK;lxW;HFGEZroG EsSXUB;qWk G
+
+===== step 500 | val_loss 2.2908 =====
+ROMEO:
+Yor be nor wcow and is sorsth
+And thay be tondanth ther mealatanss ar bapain wick,
+Anthar dilas ane arind my.
+
+HARD:
+An oroure owns, tof isth be thil ndilll,
+Wh iree s n cin lat Hetharove t ande
+Whe 
+
+===== step 1000 | val_loss 2.0021 =====
+ROMEO:
+You bef this of and is by be madires bobe to tand O-deather
+Thathe ar hip foul him to bardetlancanes wiced out,
+Than ot o muse of the of is he of milend;
+Whout miree sen contlatistling G the and the 
+
+===== step 1500 | val_loss 1.8652 =====
+ROMEO:
+Now befordy cown, which feath
+Yet so bube to thath the the gat of bard thee us hath.
+
+PAULIXENES:
+I am crame than day, my must owns, to fight be this now
+Which miste sendein latistly to by beand
+Will
+
+===== step 2000 | val_loss 1.7753 =====
+ROMEO:
+You before we will to lay be madisence, you enarther's the
+Your heave but foul hath bed he that ane away,
+And none a will must of the of it he could wel;
+Which miseles not milatient drove the the kno
+
+===== step 2500 | val_loss 1.7445 =====
+ROMEO:
+All before will and is to be mader;
+Thou but take and my call and bard thy put heart.
+
+DUKE VINCENTIO:
+I way.
+
+HENRY BOLINGBROKE:
+Ay, of it heart my help oncees it endenecin latist,
+Thou that the kno
+
+===== step 3000 | val_loss 1.7231 =====
+ROMEO:
+You before will and is and the dispok of our take
+On the day hands art that us hath bedy.
+
+DUKE VINCENTIO:
+And fallace morouse of the of in heart milend;
+Which miste sengene ladist in overs, and the 
+

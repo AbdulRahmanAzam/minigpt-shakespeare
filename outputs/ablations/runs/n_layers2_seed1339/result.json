@@ -1,0 +1,20 @@
+{
+  "name": "n_layers2_seed1339",
+  "seed": 1339,
+  "overrides": [
+    "model.n_layers=2"
+  ],
+  "parallel": true,
+  "parameters": 413440,
+  "final_val_loss": 1.6269845356886414,
+  "best_val_loss": 1.6269845356886414,
+  "final_train_loss": 1.5132472194474318,
+  "train_time_s": 504.61509960006515,
+  "tokens_per_s": 48702.46653236856,
+  "peak_memory_mb": 185.3603515625,
+  "valid_word_rate": 0.8835880337130684,
+  "distinct_1": 0.8220092000864438,
+  "distinct_2": 1.0,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nHold the boy?\n\nDUKE VINCENTIO:\nPrayer, what what there then poon's him such and you,\nI am fear confould his course lay the justy of my from\nI with is lield, for me, good tell the souls,\nBut you telp with me I hear band with your heart!\n\nWARWICK:\nHere withour fiend, he's that is so see!\n\nKING EDWARD"
+}

@@ -1,0 +1,76 @@
+===== step 0 | val_loss 4.1800 =====
+ROMEO:szcl'c MkG$oczIg,ZBKhSULMQQNRTvl:xA'$rvrYlASBGcNhSBMCQkK&a
+'gpFQTkk;huzo&uNomrx$Ny.mTVHKEZJf&gz kvnW
+WbJohJrzK$Kqq&jlhyr-ldB'OVoV'!eb3gu
+
+klyIkz??Tu-'TU &lXPNfKC-m?gXKpyX..eOralXUWZC
+mTc:$Gz y-TN?OlpE
+
+===== step 500 | val_loss 2.0043 =====
+ROMEO:
+Hon's wherould of be renom.
+That therer, and crectird, theng to ding for and
+To you a so munge congler of racty,
+And and do't of he wis laly and Tuish to
+I my you?
+
+
+DUSCELO:
+What shouck, dir more po
+
+===== step 1000 | val_loss 1.7693 =====
+ROMEO:
+Hold, when are him harm a gone that refoles words,
+And then positing more of the were he dungs cont
+With that was are a call of my begue
+Thir fith is him of first?
+
+KING EDWARD IOLA:
+The repy more po
+
+===== step 1500 | val_loss 1.6164 =====
+ROMEO:
+Hold the boody of that the offless' remiles,
+And there then post in a of a manish.
+That wife men thou do to stays all a lame of the was
+You are in is a bloody, sir, to here's love some
+In my lord, po
+
+===== step 2000 | val_loss 1.5485 =====
+ROMEO:
+Hold the booth of that the one experties,
+So crown armitan'd to the warriager;
+Now, and wife men thou would at the lay,
+Well not he was laling within his ropher-man
+With tell the shall perd you to po
+
+===== step 2500 | val_loss 1.5163 =====
+ROMEO:
+Hold, when you here?
+
+LUCIO:
+Hark my remain words, and thoughts that some of the
+would of fear confound his course.
+
+MENENIUS:
+Nor begue my lord?
+
+AUTOLYCUS:
+King in perfeerors to see the death of po
+
+===== step 3000 | val_loss 1.4972 =====
+ROMEO:
+Hold, when you here?
+
+LUCIO:
+Where's you are conceived then post you so.
+
+DUKE VINCENTIO:
+May her be be his course.
+
+MENENIUS:
+I hear, all you will have loved you?
+
+KING RICHARD II:
+I can you may loo
+

@@ -1,0 +1,71 @@
+===== step 0 | val_loss 4.1981 =====
+ROMEO:szcl'nCZkG$oczIg,$vKhSULMQQNRTvl:xA'$rvrYlASBGcNhSBHCQkK&aRngpFQn'k;huzo&ANomrx$Ny.mT'HKEZJf&yz cvnW
+WbJoXJrnK$Kqq&jrhyr-ldB'iKoV'!ebvYu
+
+klya'zCXTui'TUK&lXPNfKC-X?gXKpyX&.eOralXRWZC
+ sc:$Gz yKy&?OlpE
+
+===== step 500 | val_loss 2.0374 =====
+ROMEO:
+Hon's wher ampe, in momen to hath herer hant crech,
+To thengponn's his on of be you a
+Be the mece bouth hirn the urray,
+The thou reave arkl a dist is him
+In for me beay ther alown so so war you thepo
+
+===== step 1000 | val_loss 1.7891 =====
+ROMEO:
+Hold the bour greath, my stone to my rewles,
+And there then poon in a of a manise.
+That wife ment to be his at the ruer-lacking
+Where unlely and Turthe elsonght me bears tell,
+And so stin my like lif
+
+===== step 1500 | val_loss 1.6525 =====
+ROMEO:
+Hold the boy?
+
+DUKE VINCENTIO:
+Prayer, what what there of mother's his surnit;
+Now, as and my enver to be roather all recel'd
+All free all in this is boverour,
+And bears tell the see so was you tolp
+
+
+===== step 2000 | val_loss 1.5845 =====
+ROMEO:
+Hold you boy?
+
+DUKE VINCENTIO:
+Pray the law words with the gaten in a poor man
+Than a goneral of thee, on raction all recel'd
+All ever all farewife as the virtues?
+
+KING EDWARD IV:
+
+Plovost you tell 
+
+===== step 2500 | val_loss 1.5501 =====
+ROMEO:
+Hold the book to the revenge of his reful with his
+Armitance to king more of thy world and my heart
+With true a surred them too my begue
+That with it been offices?
+
+KING RICHARD II:
+I can my lord, po
+
+===== step 3000 | val_loss 1.5316 =====
+ROMEO:
+Hold you boy?
+
+DUKE VINCENTIO:
+Pray the law what I do do not so discuse.
+
+LORD NONTHUMBERLAND:
+Sir, you hard to murder, let's he here,
+And you should been office and perfect alove.
+
+POMPEY:
+A more po
+

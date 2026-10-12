@@ -1,0 +1,65 @@
+===== step 0 | val_loss 4.2143 =====
+ROMEO:?qf;xbDkRZkNdc'wf,ZTkOLlT,ybtK
+b:!PjCkMBbzA$3:XaSvgO-33jMBF?gLTa
+hX:YVXWthXfNuwqcBMxv.tbVF dXl!DZaLeWFw3cHPmRWk,fDEZaYzxzkkoWX
+YoR&$LMtofCibIvB!!&V!$W;Kd!lWZ,
+e3 irYe-EYnkciK;lxW;HFGEZroG EsSXUB;qWk J
+
+===== step 500 | val_loss 2.0668 =====
+ROMEO:
+You becond will and is and the af the obe to tant Ond my
+That and bard that us hat to bar ding oanes,
+Whe my frand arry of me
+Yours, tof it heat thil now
+Whate miree sto com latisttid ove the the me 
+
+===== step 1000 | val_loss 1.8434 =====
+ROMEO:
+Yen beford whow and is by be madere abould and Say them
+Be take here'd that us hath but hearlancaues
+with my fach and my to hearths, to find come
+my held in at mire, sen comelatise, and by bead;
+Wher
+
+===== step 1500 | val_loss 1.7312 =====
+ROMEO:
+Now thy bridle.
+
+STANLO:
+The made the was to take Of the dagaid
+My art that us him to be to lasome, away, my fach,
+Thou her heavens, to that I commil; I like
+Which entends mine is the loves, and the 
+
+===== step 2000 | val_loss 1.6669 =====
+ROMEO:
+Yet before will and is not the dispoked you ename?
+
+QUEEN MARGARET:
+Which is well, God are that a enjrice,
+And fall to my must of the of in her than well
+Which mirders, I in latter in overtual.
+
+WARW
+
+===== step 2500 | val_loss 1.6442 =====
+ROMEO:
+Yet before will and is not the dispoke
+Fellow and rude the gate
+My art that us him to become thou enjust,
+And none a will must of the of in heart my held
+Which mine, so heir latest in overtual.
+
+WARW
+
+===== step 3000 | val_loss 1.6275 =====
+ROMEO:
+Yet before will and is not the dispoked you entrage--
+Second hands art that us her very come.
+
+HENRY BOLINGBROKE:
+In will must of the cause heart maden in thee.
+
+KING RICHARD III:
+Give vittleman: me 
+

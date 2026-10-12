@@ -1,0 +1,20 @@
+{
+  "name": "context_length64_seed1337",
+  "seed": 1337,
+  "overrides": [
+    "model.context_length=64",
+    "train.batch_size=128"
+  ],
+  "parameters": 809984,
+  "final_val_loss": 1.530478880681893,
+  "best_val_loss": 1.530478880681893,
+  "final_train_loss": 1.429228980012931,
+  "train_time_s": 153.180154300062,
+  "tokens_per_s": 160438.5379574595,
+  "peak_memory_mb": 274.8515625,
+  "valid_word_rate": 0.9223519960449882,
+  "distinct_1": 0.8295080954146582,
+  "distinct_2": 0.9890710382513661,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nYou be not well and in the times and bubelland,\nThat I shall have been thee us of his back:\nAnd and sweet my faces are honour\nYours, to that I command did that misters,\nI in the stail overs, and the news is wants\nAll and peace thee, once by at princess,\nwhy hell not know patiently hope you, thou ar"
+}

@@ -1,0 +1,62 @@
+{
+  "metrics": {
+    "greedy (T=0)": {
+      "valid_word_rate": 0.9856982996260815,
+      "distinct_1": 0.3382053707510404,
+      "distinct_2": 0.4877224752403672,
+      "repetition_4gram": 0.3495613879511665,
+      "model_nll": 0.5285183489322662
+    },
+    "T=0.5": {
+      "valid_word_rate": 0.9959193670695563,
+      "distinct_1": 0.7004059886127373,
+      "distinct_2": 0.9634233831401192,
+      "repetition_4gram": 0.0,
+      "model_nll": 0.7750033835570017
+    },
+    "T=0.8": {
+      "valid_word_rate": 0.9786110620589491,
+      "distinct_1": 0.8060688619910832,
+      "distinct_2": 0.9892957810511002,
+      "repetition_4gram": 0.0,
+      "model_nll": 0.886110320687294
+    },
+    "T=1.0": {
+      "valid_word_rate": 0.9499974623518797,
+      "distinct_1": 0.8561949789663665,
+      "distinct_2": 0.9925146731430884,
+      "repetition_4gram": 0.0,
+      "model_nll": 1.043012648820877
+    },
+    "T=1.3": {
+      "valid_word_rate": 0.8968608771813473,
+      "distinct_1": 0.9051698225387327,
+      "distinct_2": 0.9985632183908045,
+      "repetition_4gram": 0.0,
+      "model_nll": 1.373867005109787
+    },
+    "T=0.8, top-k=10": {
+      "valid_word_rate": 0.972079177687681,
+      "distinct_1": 0.7823679320527478,
+      "distinct_2": 0.9883211914520552,
+      "repetition_4gram": 0.0,
+      "model_nll": 0.8931796153386434
+    },
+    "T=1.0, top-p=0.9": {
+      "valid_word_rate": 0.969363280582752,
+      "distinct_1": 0.8102418710419186,
+      "distinct_2": 0.9909022108655413,
+      "repetition_4gram": 0.0,
+      "model_nll": 0.9373737821976343
+    }
+  },
+  "examples": {
+    "greedy (T=0)": "ROMEO:\nI will not be so much a man to be a man.\n\nROMEO:\nI will not be so much a man to be a man.\n\nROMEO:\nI will not be so much as the sea as thou art.\n\nROMEO:\nI am a man to be a man to be a man.\n\nROMEO:\nI have a little service to the sea and there.\n\nJULIET:\nI have not so much a man to be a man.\n\nJULIET:\nI",
+    "T=0.5": "ROMEO:\nI will not be a poison, sir.\n\nROMEO:\nO, what says not she?\n\nROMEO:\nAnd so that? speak not to be so?\n\nJULIET:\nAnd say 'tis the sun; the same is a sense;\nFor what this is the truth of his war,\nThe seal'st that I might be prevail'd,\nAnd fill the second he is a perfect,\nAnd both of the dearest reign an",
+    "T=0.8": "ROMEO:\nI am I no general in his birth.\n\nMARIANA:\nFor I have heard my lips in my bed happier:\nHe is grace to my lord dead, of thyself.\n\nBENVOLIO:\nSpeak, say your servant Northumberland,\nThe duke and citizens so true, or your true care\nOf some parliament will speak weeds from the measure,\nThat's not but tha",
+    "T=1.0": "ROMEO:\nSay this earl and impossible conceit doubt?\nWhen you hear, my lord?\n\nBALTHASAR:\nHa! how now, my lord?\nWho's my lord? but stand not the king?\n\nFRIAR LAURENCE:\nNo, Nature, but that he did use him by me.\nMattude of your treasure blood, you must call unfortune\nMeet urge from me to the midwife; reigning",
+    "T=1.3": "ROMEO:\nSay things like moiments,\nI will bith murder well not. Thyself thus.\nBy thine kisses of night, I love this thee.\n\nCLAUDIO:\nBut not true a pleasant few:\nCould away it stay! Stands are husbands in seven,\nWhich, our royal preceeder, some ill-discolour:\nLet profess us ouf heaven our mother's Rome\nHath ",
+    "T=0.8, top-k=10": "ROMEO:\nI am too see, and in a subject shall death.\n\nBENVOLIO:\nThat's not for the princes of the stores.\n\nBENVOLIO:\nThen say so. What, no; the matter, and I would\nswear to be ta'en to put the part bended.\n\nROMEO:\nI'll make an appetal blood for blood; and, not fight.\n\nROMEO:\nA gentleman to make an end of a ",
+    "T=1.0, top-p=0.9": "ROMEO:\nSay then salt thou must be, my heart die.\n\nBENVOLIO:\nI would were content, by the swift with many stones\nAnd deserve the stones. Here is a prisoner\nTo see the whole land belly put the law;\nOr in the danger deep is friendly person\nTo make us to lose again before us off,\nNow he is more and my brother"
+  }
+}

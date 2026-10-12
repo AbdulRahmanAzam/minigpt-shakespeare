@@ -1,0 +1,51 @@
+{
+  "model": {
+    "vocab_size": 65,
+    "context_length": 32,
+    "d_model": 64,
+    "n_heads": 4,
+    "n_layers": 2,
+    "ffn_dim": 256,
+    "dropout": 0.0,
+    "pos_encoding": "sinusoidal",
+    "tie_weights": false,
+    "attn_impl": "manual",
+    "causal": true,
+    "bias": true
+  },
+  "data": {
+    "data_dir": "data",
+    "train_stride": 1,
+    "max_train_tokens": 65
+  },
+  "train": {
+    "seed": 1337,
+    "device": "cpu",
+    "precision": "auto",
+    "batch_size": 16,
+    "max_steps": 300,
+    "lr": 0.003,
+    "min_lr_ratio": 0.1,
+    "warmup_steps": 10,
+    "weight_decay": 0.0,
+    "beta1": 0.9,
+    "beta2": 0.95,
+    "grad_clip": 1.0,
+    "eval_interval": 100,
+    "eval_batches": 2,
+    "log_interval": 25,
+    "sample_prompt": "First",
+    "sample_tokens": 64,
+    "out_dir": "outputs/logs",
+    "ckpt_dir": "checkpoints",
+    "run_name": "overfit",
+    "save_checkpoints": false,
+    "num_workers": 0
+  },
+  "generation": {
+    "max_new_tokens": 300,
+    "temperature": 0.8,
+    "top_k": null,
+    "top_p": null
+  }
+}

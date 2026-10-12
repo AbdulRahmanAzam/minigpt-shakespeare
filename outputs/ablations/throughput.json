@@ -1,0 +1,101 @@
+{
+  "device": "cuda",
+  "precision": "bf16",
+  "rounds": 3,
+  "steps_per_round": 40,
+  "results": {
+    "n_layers2": {
+      "labels": [
+        "depth/2 layers"
+      ],
+      "median_step_ms": 26.970049999363255,
+      "tokens_per_s": 303744.3386346487,
+      "peak_memory_mb": 185.29736328125,
+      "batch": 64,
+      "context": 128
+    },
+    "baseline": {
+      "labels": [
+        "depth/4 layers",
+        "heads/4 heads",
+        "context/ctx 128",
+        "position/sinusoidal"
+      ],
+      "median_step_ms": 44.53820000344422,
+      "tokens_per_s": 183931.99544136267,
+      "peak_memory_mb": 330.86669921875,
+      "batch": 64,
+      "context": 128
+    },
+    "n_layers6": {
+      "labels": [
+        "depth/6 layers"
+      ],
+      "median_step_ms": 71.3966499970411,
+      "tokens_per_s": 114739.27698763882,
+      "peak_memory_mb": 476.43603515625,
+      "batch": 64,
+      "context": 128
+    },
+    "n_heads2": {
+      "labels": [
+        "heads/2 heads"
+      ],
+      "median_step_ms": 44.4756500000949,
+      "tokens_per_s": 184190.67512183677,
+      "peak_memory_mb": 274.86669921875,
+      "batch": 64,
+      "context": 128
+    },
+    "n_heads8": {
+      "labels": [
+        "heads/8 heads"
+      ],
+      "median_step_ms": 39.512199989985675,
+      "tokens_per_s": 207328.36951818055,
+      "peak_memory_mb": 471.96337890625,
+      "batch": 64,
+      "context": 128
+    },
+    "context_length64": {
+      "labels": [
+        "context/ctx 64"
+      ],
+      "median_step_ms": 49.661099998047575,
+      "tokens_per_s": 164958.08591275805,
+      "peak_memory_mb": 274.78857421875,
+      "batch": 128,
+      "context": 64
+    },
+    "context_length256": {
+      "labels": [
+        "context/ctx 256"
+      ],
+      "median_step_ms": 45.262850006110966,
+      "tokens_per_s": 180987.27762158134,
+      "peak_memory_mb": 472.21337890625,
+      "batch": 32,
+      "context": 256
+    },
+    "pos_encodinglearned": {
+      "labels": [
+        "position/learned"
+      ],
+      "median_step_ms": 48.74579999886919,
+      "tokens_per_s": 168055.5042729843,
+      "peak_memory_mb": 330.99267578125,
+      "batch": 64,
+      "context": 128
+    },
+    "pos_encodingnone": {
+      "labels": [
+        "position/none"
+      ],
+      "median_step_ms": 45.35980000218842,
+      "tokens_per_s": 180600.44355585275,
+      "peak_memory_mb": 330.8046875,
+      "batch": 64,
+      "context": 128
+    }
+  }
+}

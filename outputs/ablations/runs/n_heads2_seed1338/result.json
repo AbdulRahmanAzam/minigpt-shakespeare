@@ -1,0 +1,20 @@
+{
+  "name": "n_heads2_seed1338",
+  "seed": 1338,
+  "overrides": [
+    "model.n_heads=2"
+  ],
+  "parallel": true,
+  "parameters": 809984,
+  "final_val_loss": 1.5387449212457942,
+  "best_val_loss": 1.5387449212457942,
+  "final_train_loss": 1.4472017132002732,
+  "train_time_s": 416.0518486999499,
+  "tokens_per_s": 59069.56086553488,
+  "peak_memory_mb": 274.9296875,
+  "valid_word_rate": 0.9081262966494749,
+  "distinct_1": 0.8220031375926666,
+  "distinct_2": 1.0,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nHell'd what not this much of York;\nOr to his she both the stribuness daidly since.\n\nKING RICHARD III:\nSpeak, you that I have mark'd you to high our put more:\nAnd thou when house now the pity that such and harms\nYour from your broke of this soltice,\nMarcy great: but not the worse arms, and prince, p"
+}

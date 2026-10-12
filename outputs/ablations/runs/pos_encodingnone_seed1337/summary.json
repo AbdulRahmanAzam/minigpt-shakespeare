@@ -1,0 +1,43 @@
+{
+  "run_name": "pos_encodingnone_seed1337",
+  "parameters": 809984,
+  "parameters_human": "810.0K",
+  "model": {
+    "vocab_size": 65,
+    "context_length": 128,
+    "d_model": 128,
+    "n_heads": 4,
+    "n_layers": 4,
+    "ffn_dim": 512,
+    "dropout": 0.1,
+    "pos_encoding": "none",
+    "tie_weights": false,
+    "attn_impl": "manual",
+    "causal": true,
+    "bias": true
+  },
+  "steps": 3000,
+  "batch_size": 64,
+  "tokens_seen": 24576000,
+  "epochs": 24.48164772964993,
+  "precision": "bf16",
+  "hardware": {
+    "python": "3.12.14",
+    "torch": "2.11.0+cu128",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "device": "cuda",
+    "cpu_threads": 8,
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_memory_gb": 4.0
+  },
+  "train_time_s": 115.24992959994415,
+  "wall_clock_s": 128.0819746999914,
+  "tokens_per_s": 213240.9111685211,
+  "peak_memory_mb": 330.86767578125,
+  "final_train_loss": 1.6225769766445817,
+  "final_val_loss": 1.7231100827798076,
+  "final_val_ppl": 5.60192384660409,
+  "best_val_loss": 1.7231100827798076,
+  "best_step": 3000,
+  "checkpoint_best": null
+}

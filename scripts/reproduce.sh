@@ -35,6 +35,7 @@ $PY -m experiments.decoding_compare --checkpoint $CKPT
 
 # concept experiments
 $PY -m experiments.rnn_vs_transformer
+$PY -m experiments.lstm_baseline
 $PY -m experiments.mlm_vs_clm --steps 1500
 
 # controlled ablations (Figure 9)

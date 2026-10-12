@@ -1,0 +1,65 @@
+===== step 0 | val_loss 4.2150 =====
+ROMEO:?qCnxbDkRZkNdc'wj,ZT,OLlT,eHtK
+b:!PTCkMBbzA$3:XaSGgO-3qSM:F?gLTa
+hX:YVXJtpXfNuwqc$MxG.tbfF dXl!DZaLeWFwccHPgRWk,fDE'nYzxzoIouX
+YoR&$FMtofVidIvB!!&V!$W;Kd!lNZ,
+e3 irYe-ERngciK;lxW;HFGEdroG EsSXUB;qWk G
+
+===== step 500 | val_loss 2.0351 =====
+ROMEO:
+You becordy cown, he son, be madises bube to tarthe
+The me tand he ard that us him to bardetlass,
+en with my thand a wiznkough off ort fuitie bet mithtling,
+Wes it ensen cin latisttivenv the and the 
+
+===== step 1000 | val_loss 1.7853 =====
+ROMEO:
+You before will and is be be made to bear to take
+On the dalied
+My armbapien with her barderlacoan, away, and nonguar,
+Go must of the of in heart my folllow,
+Whither sengein lation in overs, and the 
+
+===== step 1500 | val_loss 1.6535 =====
+ROMEO:
+Now thy brid own, which you have seembear to take
+Our streaginanss arthip foul him to be the rust.
+
+First Servenged:
+And I make with to fight be this now oncees is eye.
+
+LUCIO:
+Yet is overs, and the 
+
+===== step 2000 | val_loss 1.5793 =====
+ROMEO:
+You before will and is not the dispoker's dancarting.
+
+MARCIUS:
+My Lord hath well, they comels of enjoy.
+
+DUKE VINCENTIO:
+Now, on the officion!
+
+ANGELO:
+Why, even we send in the Herivion to and him p
+
+===== step 2500 | val_loss 1.5527 =====
+ROMEO:
+You before will and in the time: and but our tarther.
+
+MARCIUS:
+My Lord hath wear her back that a endward,
+And for a will our towns, to that I commil;
+And that might sent in the Heriving to and him p
+
+===== step 3000 | val_loss 1.5339 =====
+ROMEO:
+You before we will be love the dispoker'd age.
+Still I shall have been thee us commont?
+
+MERCUTIO:
+Why, sweet not the more the own of of this blood,
+To will be mine, so have late maid overs,
+He will 
+

@@ -1,0 +1,19 @@
+{
+  "name": "n_heads8_seed1337",
+  "seed": 1337,
+  "overrides": [
+    "model.n_heads=8"
+  ],
+  "parameters": 809984,
+  "final_val_loss": 1.5562492214400192,
+  "best_val_loss": 1.5562492214400192,
+  "final_train_loss": 1.4456958573440026,
+  "train_time_s": 144.4069990999269,
+  "tokens_per_s": 170185.65688075736,
+  "peak_memory_mb": 472.0263671875,
+  "valid_word_rate": 0.8802561960456696,
+  "distinct_1": 0.7917014759120021,
+  "distinct_2": 0.9940476190476191,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nYou before we will to lay be made to be soul:\nYou are my call and be this foul commonty\nThe lady, endrect my father prize our abses\nMore in heart mild did that misters, and that HereforG the heart\nnot him. That will lind me like up, once his burriness\nWith face to see and and a loss of you,\nA cause"
+}

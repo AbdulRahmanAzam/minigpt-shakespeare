@@ -1,0 +1,58 @@
+===== step 0 | val_loss 4.2150 =====
+ROMEO:?qCnxbDkRZkNdc'wj,ZT,OLlT,eHtK
+b:!PTCkMBbzA$3:XaSGgO-3qSM:F?gLTa
+hX:YVXJtpXfNuwqc$MxG.tbfF dXl!DZaLeWFwccHPgRWk,fDE'nYzxzoIouX
+YoR&$FMtofVidIvB!!&V!$W;Kd!lNZ,
+e3 irYe-ERngciK;lxW;HFGEdroG EsSXUB;qWk G
+
+===== step 500 | val_loss 2.0207 =====
+ROMEO:
+You beford will and is and the a sell of oule.
+Sign:
+I the tald he ard that us him to bardetlas ane awith,
+And fald to morm he of sproof it heart milend,
+Whate miree son com latient dies the and the 
+
+===== step 1000 | val_loss 1.7737 =====
+ROMEO:
+Yet before will and is and the did to obe to take and my day
+Take barthip foul hath but he that ane away,
+And not the murton thou sproke in heart my would
+What misters, I im latist in overs, and the 
+
+===== step 1500 | val_loss 1.6500 =====
+ROMEO:
+You before will and is not the dispoke be done,
+That I the gate
+My art that us hath but he that a enjoice,
+And for a wizh our to them of it heart mile,
+But, and if the necintle is the losts, and the 
+
+===== step 2000 | val_loss 1.5823 =====
+ROMEO:
+Yet before we will to love the dispost?
+
+AUTOLYCUS:
+Now me?
+
+Pause:
+What I have word that did hoar, away, my face,
+Or my lord, one proof it is me milending,
+We misters, and that Her droving and him p
+
+===== step 2500 | val_loss 1.5569 =====
+ROMEO:
+Yet before who daught on, but be set bube to take
+On the call and barnitheed with his back:
+And and away, and hand a wizons heavens,
+How is he confil to little mine the good latest,
+Thou that thou lo
+
+===== step 3000 | val_loss 1.5370 =====
+ROMEO:
+You before we will to life the disposities of a
+shrives that hangs are that us hath been to lady,
+But consul. What's no prompetors or of this blood,
+To will be mine the king lates that virtue,
+And no
+

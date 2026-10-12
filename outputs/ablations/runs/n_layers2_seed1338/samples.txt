@@ -1,0 +1,63 @@
+===== step 0 | val_loss 4.1557 =====
+ROMEO:jmhXu'O
+lwSjP3 vC$YirgGGzv; xWYFiMuo?;l$u&KM?nBgvrY&
+!$OOoTsyOHZFTLmEhLhi:aA qiKibE$UKSMey-HlXbhWua.Da l3'XiRDDERYH?w-gCjYsvKTm&'qC,KZkSxY3y$LIFDIZQDndxIKNXKVovzn!tbqIt&XCmjeousmY- rm,G!dScN
+AvD IuqN3
+
+===== step 500 | val_loss 2.0721 =====
+ROMEO:
+Hey noth and this, a my vo a woitur all shat, be both
+O, thy sour my dis an sising pione thon he as a lave
+Of ERY CORD:
+You plord sher misint the she to gildst bliong.
+
+
+Nalousme tree he come to me t
+
+===== step 1000 | val_loss 1.8539 =====
+ROMEO:
+Hey not what this is my voorthyir to heart:
+What but the plaise with distan sir,
+And of yould he as a love in but madger strant.
+
+COMILO:
+Mery more the so best not brow my housand whered, the to me.
+
+
+===== step 1500 | val_loss 1.7424 =====
+ROMEO:
+He day, what this, and be of words.
+
+POMPEMNE:
+This, the plays all when day sist of to my hight
+The a landish but and these plaring of mine the cannes
+As in of bling them alousand when dectice and
+No
+
+===== step 2000 | val_loss 1.6785 =====
+ROMEO:
+He warl! Say this, and boy a words.
+
+PRINCE EDWARD:
+Well, sir, and when day sir, what I must blow slains
+And is make god stranged. O, which the cannot thou are
+And bround and smen when dectice and wa
+
+===== step 2500 | val_loss 1.6501 =====
+ROMEO:
+He was what not this my voice time your shall be both,
+Or should the daidly sistroke of your blow such sea
+Of the call dest plardal of my better,
+When thou are not betwnemand say true hand,
+And in wh
+
+===== step 3000 | val_loss 1.6358 =====
+ROMEO:
+He was what not this my voice time.
+
+PAULINA:
+My lord, but your woman his desired being my liber
+As a landish but and these plardal of my lord,
+I she does best nature break our there,
+Advicious in wh
+

@@ -1,0 +1,41 @@
+{
+  "run_name": "overfit",
+  "parameters": 108416,
+  "parameters_human": "108.4K",
+  "model": {
+    "vocab_size": 65,
+    "context_length": 32,
+    "d_model": 64,
+    "n_heads": 4,
+    "n_layers": 2,
+    "ffn_dim": 256,
+    "dropout": 0.0,
+    "pos_encoding": "sinusoidal",
+    "tie_weights": false,
+    "attn_impl": "manual",
+    "causal": true,
+    "bias": true
+  },
+  "steps": 300,
+  "batch_size": 16,
+  "tokens_seen": 153600,
+  "epochs": 2363.076923076923,
+  "precision": "fp32",
+  "hardware": {
+    "python": "3.12.14",
+    "torch": "2.11.0+cu128",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "device": "cpu",
+    "cpu_threads": 8
+  },
+  "train_time_s": 9.743485999992117,
+  "wall_clock_s": 11.098173999998835,
+  "tokens_per_s": 15764.378375473036,
+  "peak_memory_mb": null,
+  "final_train_loss": 0.026060637086629868,
+  "final_val_loss": 8.726486206054688,
+  "final_val_ppl": 6164.030879342241,
+  "best_val_loss": 4.207087755203247,
+  "best_step": 0,
+  "checkpoint_best": null
+}

@@ -1,0 +1,18 @@
+{
+  "name": "baseline_seed1339",
+  "seed": 1339,
+  "overrides": [],
+  "parallel": true,
+  "parameters": 809984,
+  "final_val_loss": 1.5316497465659833,
+  "best_val_loss": 1.5316497465659833,
+  "final_train_loss": 1.4124547714474558,
+  "train_time_s": 1065.741102999993,
+  "tokens_per_s": 23060.009537795,
+  "peak_memory_mb": 330.9296875,
+  "valid_word_rate": 0.9008753954558527,
+  "distinct_1": 0.7964136348384622,
+  "distinct_2": 1.0,
+  "repetition_4gram": 0.0,
+  "sample": "ROMEO:\nHold you boy?\n\nDUKE VINCENTIO:\nPray the law what I do do not so discuse.\n\nLORD NONTHUMBERLAND:\nSir, you hard to murder, let's he here,\nAnd you should been office and perfect alove.\n\nPOMPEY:\nA more power best,\nThat I was are your help in the horself,\nAnd now this death, and this sonse was this fluce"
+}

@@ -1,0 +1,67 @@
+===== step 0 | val_loss 4.1853 =====
+ROMEO:jvOXS'OMlRajP3 'C$YirRGGzv; xWUFiMuu?;leD&KM?b XvrY&
+!$OOJTsyOsZFTLmEhLhi:aA qmKibE$pKSMey-HlXbhWwa.Da l3GXiRDDERYH?w-g-jYsv Tm&'qn,KZkSxY3r$LIFOIZQMndxIKNXKVoeznltbqIt&XgmjexusmY- rm,GhdScN
+AvCaiuYN3
+
+===== step 500 | val_loss 2.1124 =====
+ROMEO:
+Hey noul and thit, sim, vo a weitut ale shat all bothe.
+
+CLEOLENT:
+ENodid, this, with thy hon he and the aish but mall dos, plord.
+
+CAMEOLE:
+I'l, she toulll of nat but neme ousmer wheat fith thaind.
+
+
+===== step 1000 | val_loss 1.8376 =====
+ROMEO:
+Hey godless not this my vool woild your shall groud
+What thy staltant his besing of to my honour
+And to it in but mall dos, and fallow mise thee,
+When thou down liblet never usmer wheard, the to me.
+
+
+===== step 1500 | val_loss 1.6865 =====
+ROMEO:
+He fair! Say this, and but a woidds all shall be bod!
+O, that see my disdar sir, what I must be
+with to being but madged stays reasure on you worse
+That of to sent but never us there, he commenting.
+
+
+===== step 2000 | val_loss 1.6137 =====
+ROMEO:
+He fair! and this, and buy a words.
+
+PAULINA:
+My lord, but your women his desired.
+
+KING HENRY VI:
+Day, 'tis is man, god stays reason?
+
+LADY II:
+You do more of this bound and sman when dection,
+In wa
+
+===== step 2500 | val_loss 1.5757 =====
+ROMEO:
+He was what not this much of York; your shall be both
+Our should was disdar sinible to him.
+
+LUCENTIO:
+Sir, if I want these play as of my better,
+When I say of this bolden house now gate, the cannot 
+
+===== step 3000 | val_loss 1.5555 =====
+ROMEO:
+He way, what this, and boy a words.
+
+PAULINA:
+My lord, but your women his senman of to him.
+
+Shepherd:
+Sir, if I want these plantaged would the own the soul:
+And there never us there, he come to me.
+
+

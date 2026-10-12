@@ -1,0 +1,64 @@
+===== step 0 | val_loss 4.1786 =====
+ROMEO:szcl'J M.A$oc?Ig,$vbhFULMQQNRTvl:xA'$rqrYlASBGcNhSBHCQkK&U
+'gpFQnkk;hizo&ANomqx$Ny.mP':KEZJf&gz cvnW
+W-JoXJrnK$Kqq&.rhMr-ldB'tLoV'!ebvgq
+
+kliIkzHXTui'TU elXPNfKC-X?gXKpyX..eOralX;WZC
+ sc:$Gz y-y&?OlpE
+
+===== step 500 | val_loss 2.2720 =====
+ROMEO:
+Hel's wherourd of be then to har, herer lan wor,
+Burd, thengat nding moon ome, hy mord andf y ofre dee on ro theaur.
+
+HERYBROLAND:
+We wer lil this iss teloreft sme beay ther alo ngs
+I ce ad y mouelpo
+
+===== step 1000 | val_loss 2.0069 =====
+ROMEO:
+Hold the boove hink moren to hath harer hank crectird,
+What pon that morranie, hy mord and my econ deed hir athes art ancer'd ollee,
+Your lie this is haveringheng ing you.
+
+LANGEY CE:
+Sin my therelpo
+
+===== step 1500 | val_loss 1.8711 =====
+ROMEO:
+Hold, whence I hill more sto hath herefolest come,
+And then post in is one me; he more and
+The con the on racte surre at dritool and gue
+Think son it heelpop, you?
+
+
+DUKE VINCENTIO:
+I can m y moreld,
+
+===== step 2000 | val_loss 1.7837 =====
+ROMEO:
+Hold the boy?
+
+DUCHESS OF YORK:
+What, I lang come with then post in is our me;
+Now, and wife ment hour on ractione.
+
+MENENIUS:
+Nay, will my and is is have offts me,
+Will tell to not made us you to po
+
+===== step 2500 | val_loss 1.7325 =====
+ROMEO:
+Hold the boody, broh, my stone that refollow come,
+And then pown in is our me; he must and
+The condened his at the rue the justy heave a
+That this is but of for me agay to o alove so scee did more
+po
+
+===== step 3000 | val_loss 1.7134 =====
+ROMEO:
+Hold the boody, broh, my sto hath herefolest couse,
+So then pown in is our me; he must and my heart
+Who his at the lay the justy revel alll and in it
+A more for me agans tell to thee scon die more po
+

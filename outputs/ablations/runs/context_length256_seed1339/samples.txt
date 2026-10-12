@@ -1,0 +1,73 @@
+===== step 0 | val_loss 4.1725 =====
+ROMEO:szcl'nCZkG$oczIg,$vKhSULMQQNRTvl:xA'$rvrYlASBGcNhSBHCQkK&aRngpFQn'k;huzo&ANomrx$Ny.mT'HKEZJf&yz cvnW
+WbJoXJrnK$Kqq&jrhyr-ldB'iEoV'XeJvYu
+
+mliakzJiTBi'TUKe
+XPNfKC-m?iPKpy$..eOralXPWZC
+ sc:$Gz y-y&velpo
+
+===== step 500 | val_loss 2.1509 =====
+ROMEO:
+Hol's whe o mughthord my sto harrthereriaterrce,
+Brarke and pon thall of ande, hy my brownfe mece bourd hirn to
+Whar ar lell boll fre uer lin this iss telor forse?
+
+KING VIO:
+Whands mad wad you thepo
+
+===== step 1000 | val_loss 1.8566 =====
+ROMEO:
+Hel's when a cordion, my stone to here what word
+And king not suping to not the she a sond
+The conto broh rout the rayall But of thee welll.
+
+HENRY BOKE:
+I have me be your of the souls, which more po
+
+===== step 1500 | val_loss 1.7088 =====
+ROMEO:
+Hold the bother, it more of God:
+And you an what there then poon you some of behorm,
+I am fear conton to tracters all a calling
+Where untoly and must him of firsment
+Dest enemy to seend with the was 
+
+===== step 2000 | val_loss 1.6230 =====
+ROMEO:
+Hold the boy?
+
+DUKE VINCENTIO:
+Pray's right with there then.
+
+QUEEN MARGARET:
+Ah, my lord:
+The can the barracted up.
+
+LEONTES:
+Nor be seem in this is him of for me,
+With tell the soles in my lord, po
+
+===== step 2500 | val_loss 1.5836 =====
+ROMEO:
+Hold the boy?
+
+DUKE VINCENTIO:
+Pray the law words are and not such out
+With the sweet of the mock of brother to suil
+and drittor'd be well in this is lies offices?
+
+KING RICHARD II:
+I can my lord, po
+
+===== step 3000 | val_loss 1.5660 =====
+ROMEO:
+Hold the boy?
+
+DUKE VINCENTIO:
+Pray! Bring the hath days, not such out our man?
+
+PAULINE:
+My lord lord, here them I have do't old ever a
+most this is him of for me, good tell the soles,
+But you tell 
+
