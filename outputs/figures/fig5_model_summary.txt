@@ -1,0 +1,53 @@
+MiniGPT model summary
+==============================================================================
+  vocab_size       65
+  context_length   256
+  d_model          256
+  n_heads          4
+  n_layers         6
+  ffn_dim          1024
+  dropout          0.2
+  pos_encoding     sinusoidal
+  tie_weights      False
+  attn_impl        manual
+  causal           True
+  bias             True
+
+  module                            shape                       params
+  --------------------------------------------------------------------
+  tok_emb.weight                    (65, 256)                   16,640
+  blocks.0.ln1.weight               (256,)                         256
+  blocks.0.ln1.bias                 (256,)                         256
+  blocks.0.attn.q_proj.weight       (256, 256)                  65,536
+  blocks.0.attn.q_proj.bias         (256,)                         256
+  blocks.0.attn.k_proj.weight       (256, 256)                  65,536
+  blocks.0.attn.k_proj.bias         (256,)                         256
+  blocks.0.attn.v_proj.weight       (256, 256)                  65,536
+  blocks.0.attn.v_proj.bias         (256,)                         256
+  blocks.0.attn.out_proj.weight     (256, 256)                  65,536
+  blocks.0.attn.out_proj.bias       (256,)                         256
+  blocks.0.ln2.weight               (256,)                         256
+  blocks.0.ln2.bias                 (256,)                         256
+  blocks.0.ffn.fc1.weight           (1024, 256)                262,144
+  blocks.0.ffn.fc1.bias             (1024,)                      1,024
+  blocks.0.ffn.fc2.weight           (256, 1024)                262,144
+  blocks.0.ffn.fc2.bias             (256,)                         256
+  ln_f.weight                       (256,)                         256
+  ln_f.bias                         (256,)                         256
+  lm_head.weight                    (65, 256)                   16,640
+  ... blocks.1 - blocks.5 identical to blocks.0
+
+  parameters by component:
+    tok_emb                       16,640  (  0.3%)
+    blocks (all layers)        4,738,560  ( 99.3%)
+    ln_f                             512  (  0.0%)
+    lm_head                       16,640  (  0.3%)
+
+  TOTAL trainable parameters: 4,772,352 (4.77M)
+  analytic formula agrees:    True
+  fp32 weight size:           18.2 MB
+
+  architecture:
+    tokens (B,T) -> Embedding(65,256) * sqrt(256) + sinusoidal PE
+    -> 6 x [x + MHA_4heads(LN(x)); x + FFN_256->1024->256(LN(x))]
+    -> LayerNorm -> Linear(256,65) -> logits (B,T,65)

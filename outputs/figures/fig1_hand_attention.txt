@@ -1,0 +1,76 @@
+HAND-CALCULATED SCALED DOT-PRODUCT ATTENTION  (3 tokens, d_k = d_v = 2)
+========================================================================
+Q (one query row per token)
+  [1.0000, 0.0000]
+  [0.0000, 1.0000]
+  [1.0000, 1.0000]
+K (one key row per token)
+  [1.0000, 0.0000]
+  [1.0000, 1.0000]
+  [0.0000, 1.0000]
+V (one value row per token)
+  [1.0000, 0.0000]
+  [0.0000, 2.0000]
+  [1.0000, 1.0000]
+
+Step 1  S = Q K^T     (S[i, j] = q_i . k_j)
+  q1.k1 = 1*1 + 0*0 = 1 | q1.k2 = 1*1 + 0*1 = 1 | q1.k3 = 1*0 + 0*1 = 0
+  q2.k1 = 0*1 + 1*0 = 0 | q2.k2 = 0*1 + 1*1 = 1 | q2.k3 = 0*0 + 1*1 = 1
+  q3.k1 = 1*1 + 1*0 = 1 | q3.k2 = 1*1 + 1*1 = 2 | q3.k3 = 1*0 + 1*1 = 1
+  [1.0000, 1.0000, 0.0000]
+  [0.0000, 1.0000, 1.0000]
+  [1.0000, 2.0000, 1.0000]
+
+Step 2  S / sqrt(d_k) = S / sqrt(2) = S / 1.4142
+  [0.7071, 0.7071, 0.0000]
+  [0.0000, 0.7071, 0.7071]
+  [0.7071, 1.4142, 0.7071]
+
+Step 3  row-wise softmax: w_ij = exp(s_ij) / sum_j exp(s_ij)
+  row 1: exp = [2.0281, 2.0281, 1.0000]  sum = 5.0562
+  row 2: exp = [1.0000, 2.0281, 2.0281]  sum = 5.0562
+  row 3: exp = [2.0281, 4.1133, 2.0281]  sum = 8.1695
+  [0.4011, 0.4011, 0.1978]
+  [0.1978, 0.4011, 0.4011]
+  [0.2483, 0.5035, 0.2483]
+  row sums = [1.0, 1.0, 1.0]
+
+Step 4  output = W V   (each output row is a weighted average of the value rows)
+  out1 = 0.4011*v1 + 0.4011*v2 + 0.1978*v3 = [0.5989, 1.0000]
+  out2 = 0.1978*v1 + 0.4011*v2 + 0.4011*v3 = [0.5989, 1.2033]
+  out3 = 0.2483*v1 + 0.5035*v2 + 0.2483*v3 = [0.4965, 1.2552]
+  [0.5989, 1.0000]
+  [0.5989, 1.2033]
+  [0.4965, 1.2552]
+
+Step 5  causal mask: M[i, j] = -inf if j > i (future), else 0;  S_masked = S/sqrt(d_k) + M
+  [0.0000,   -inf,   -inf]
+  [0.0000, 0.0000,   -inf]
+  [0.0000, 0.0000, 0.0000]
+  masked scores:
+  [0.7071,   -inf,   -inf]
+  [0.0000, 0.7071,   -inf]
+  [0.7071, 1.4142, 0.7071]
+
+Step 6  softmax of masked scores (exp(-inf) = 0)
+  row 1: exp = [2.0281, 0.0000, 0.0000]  sum = 2.0281
+  row 2: exp = [1.0000, 2.0281, 0.0000]  sum = 3.0281
+  row 3: exp = [2.0281, 4.1133, 2.0281]  sum = 8.1695
+  [1.0000, 0.0000, 0.0000]
+  [0.3302, 0.6698, 0.0000]
+  [0.2483, 0.5035, 0.2483]
+  causal output = W_masked V
+  [1.0000, 0.0000]
+  [0.3302, 1.3395]
+  [0.4965, 1.2552]
+
+Step 7  what changed for each position
+  token 1: may only attend to itself -> weight 1.0 on v1, output = v1 = [1, 0].
+           Without the mask it mixed in v2 and v3, i.e. it 'saw the future'.
+  token 2: sees tokens 1-2 only; the softmax renormalises over 2 scores, so the weights
+           [0.3302, 0.6698] differ from the unmasked [0.1978, 0.4011] - v3 is removed.
+  token 3: is the last token; it already only had past/present to see, so its row is unchanged.
+  => Masking removes information about later tokens. This is what lets a GPT train on every
+     position of a sequence in parallel without the answer (the next token) leaking in.
+
+Check vs src.attention.scaled_dot_product_attention: MATCH

@@ -1,0 +1,25 @@
+# Debugging gate (Milestone 4): memorise a tiny slice of the corpus.
+# Loss should fall from ~4.2 (= ln 65, uniform guess) to near zero if gradients and target shifting work.
+model:
+  context_length: 32
+  d_model: 64
+  n_heads: 4
+  n_layers: 2
+  dropout: 0.0
+data:
+  data_dir: data
+  max_train_tokens: 65       # 33 windows of 32 tokens
+train:
+  device: cpu
+  batch_size: 16
+  max_steps: 300
+  lr: 3.0e-3
+  warmup_steps: 10
+  weight_decay: 0.0
+  eval_interval: 100
+  eval_batches: 2
+  log_interval: 25
+  sample_tokens: 64
+  sample_prompt: "First"
+  run_name: overfit
+  save_checkpoints: false

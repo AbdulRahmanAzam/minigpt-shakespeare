@@ -1,0 +1,131 @@
+{
+  "checkpoint": "checkpoints\\minigpt_shakespeare.pt",
+  "step": 2750,
+  "parameters": 4772352,
+  "val": {
+    "loss": 1.3530756377954087,
+    "perplexity": 3.8693078379219896,
+    "bits_per_char": 1.9520755125951075,
+    "tokens": 55770
+  },
+  "test": {
+    "loss": 1.5299944432649744,
+    "perplexity": 4.6181511603861765,
+    "bits_per_char": 2.207315395886049,
+    "tokens": 55770
+  },
+  "test_segments": {
+    "split_at_char": 21115,
+    "split_at_line": 899,
+    "unseen_speakers": [
+      "ADRIAN",
+      "ALONSO",
+      "ANTONIO",
+      "ARIEL",
+      "CALIBAN",
+      "FERDINAND",
+      "FRANCISCO",
+      "GONZALO",
+      "MIRANDA",
+      "PROSPERO",
+      "SEBASTIAN"
+    ],
+    "seen_plays": {
+      "chars": 21115,
+      "loss": 1.2609106098733298,
+      "perplexity": 3.5286332330811714
+    },
+    "unseen_play": {
+      "chars": 34655,
+      "loss": 1.692889603862056,
+      "perplexity": 5.4351635051344545
+    }
+  },
+  "baselines": {
+    "uniform": 4.174387269895637,
+    "unigram": 3.332698175350079,
+    "bigram": 2.4742593382225917,
+    "trigram": 2.0374846913432862,
+    "5-gram": 2.12263140148082
+  },
+  "samples": [
+    {
+      "prompt": "ROMEO:",
+      "sampled": "ROMEO:\nAs foul shadows not be great as to say,\nAs much as your mother like a common to death.\nGod grant you, to this uncle is commended:\nI am not like a little fall for the prince,\nWhich is but unite as a day as courte hand.\nFarewell: no, farewell. If thou dost the abuse\nAs with the outward be when also, ",
+      "greedy": "ROMEO:\nI will not be so much a man to be a man.\n\nROMEO:\nI will not be so much a man to be a man.\n\nROMEO:\nI will not be so much",
+      "metrics": {
+        "valid_word_rate": 0.9838709677419355,
+        "distinct_1": 0.7258064516129032,
+        "distinct_2": 0.9836065573770492,
+        "repetition_4gram": 0.0
+      },
+      "ignored_chars": []
+    },
+    {
+      "prompt": "JULIET:\n",
+      "sampled": "JULIET:\nThe king is a foul tender foe.\n\nPage:\nGood Paul, tell me, god my lords, did I learn,\nBefore I be satisfied by her driver, and yet?\n\nBUCKINGHAM:\nWhy, is it not to come?\n\nPursuivant:\nBut sir, my lord, you know not a horseman in\nthat fast way have violent of the heavens,\nWhich never turns me said 'Cori",
+      "greedy": "JULIET:\nWhat is the matter?\n\nNurse:\nWhat, is it? what is the matter?\n\nJULIET:\nWhat, is it? what is the matter?\n\nJULIET:\nWhat, is",
+      "metrics": {
+        "valid_word_rate": 0.9661016949152542,
+        "distinct_1": 0.8813559322033898,
+        "distinct_2": 1.0,
+        "repetition_4gram": 0.0
+      },
+      "ignored_chars": []
+    },
+    {
+      "prompt": "First Citizen:\n",
+      "sampled": "First Citizen:\nSay, in the vapel of the Tower of French,\nWhose shall this wander brought to the complaint\nThat you are but like a life and scorns.\n\nROMEO:\nO gentleman, noise!\n\nSecond Citizen:\nBut she is contention like an execution.\nSirrah, good Capulet! the gods, have spoke down shed\nWith such shepherd's eyes, st",
+      "greedy": "First Citizen:\nWhat is the consul?\n\nCORIOLANUS:\nWhat is the matter?\n\nCORIOLANUS:\nWhat is the matter?\n\nCORIOLANUS:\nWhat is the matter?\n\n",
+      "metrics": {
+        "valid_word_rate": 0.9622641509433962,
+        "distinct_1": 0.8867924528301887,
+        "distinct_2": 1.0,
+        "repetition_4gram": 0.0
+      },
+      "ignored_chars": []
+    },
+    {
+      "prompt": "KING RICHARD III:\n",
+      "sampled": "KING RICHARD III:\nWell, faith, my lord, dear my defend Lord;\nAnd let me this stones be too much merrily:\nThe did Sicilia, I'll swear.\n\nDUKE OF AUMERLE:\nHold me to my common land,\nAnd stand I did forswear this heart's curse;\nAnd that through the region of many news?\nThat if it be made me to the bed, the store\nThat our",
+      "greedy": "KING RICHARD III:\nWhat is the duke?\n\nQUEEN ELIZABETH:\nThe king is so far as the man that would be so.\n\nQUEEN ELIZABETH:\nAnd then the devil",
+      "metrics": {
+        "valid_word_rate": 1.0,
+        "distinct_1": 0.7166666666666667,
+        "distinct_2": 0.9830508474576272,
+        "repetition_4gram": 0.0
+      },
+      "ignored_chars": []
+    },
+    {
+      "prompt": "To be, or not to be",
+      "sampled": "To be, or not to be true.\n\nMENENIUS:\nO, Isabel, a great word\nTo tell you?\n\nMENENIUS:\nThat's a much of consort:\nWe have been kill the people:\nYou, look to your denies hath been in the strength,\nTo whose points we still be lost. Let's away\nThe noble tottes; for I cannot be bain\nAside myself from these sights and men's t",
+      "greedy": "To be, or not to be the courtesy of the crown,\nAnd therefore the common state of the crown,\nWhich they shall be the common that word in the",
+      "metrics": {
+        "valid_word_rate": 0.9473684210526315,
+        "distinct_1": 0.8245614035087719,
+        "distinct_2": 1.0,
+        "repetition_4gram": 0.0
+      },
+      "ignored_chars": []
+    },
+    {
+      "prompt": "The future of artificial intelligence",
+      "sampled": "The future of artificial intelligence,\nWhich once of more preparation will say\nThan I should call thee to thy strange shall\nWith instatiate traitors, which now thou shalt have made\nThe bawdy crown trees beloving the earth.\n\nGREMIO:\nA reselves, for our sword, man! Who's best vow?\n\nHORTENSIO:\nHe had not forgot to your short succeeding,\nA",
+      "greedy": "The future of artificial intelligence,\nThe streets of the sea and the sea of York\nAnd the truth of the sea and the sea of York\nAnd then the thing the common ",
+      "metrics": {
+        "valid_word_rate": 0.9423076923076923,
+        "distinct_1": 0.9230769230769231,
+        "distinct_2": 1.0,
+        "repetition_4gram": 0.0
+      },
+      "ignored_chars": []
+    }
+  ],
+  "sample_metrics_mean": {
+    "valid_word_rate": 0.9669854878268183,
+    "distinct_1": 0.826376638316474,
+    "distinct_2": 0.9944429008057795,
+    "repetition_4gram": 0.0
+  }
+}

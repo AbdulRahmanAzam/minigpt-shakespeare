@@ -1,0 +1,42 @@
+===== step 0 | val_loss 4.2492 =====
+ROMEO:?qfCxbDkRZkNdc.wj,ZTxOLOT,ebtK
+b:qYjCkMBbXA$3:XaSGgO-3DjMqc?gLTa
+hXbYVXJthXfNuwqcPMKG.tbVF dXlADvaLeWFw3cHPgRWk,fDE'nYuxz$INuX
+YoR&$LMtofCi&IIB!!&V!OW;KdYlN,,Ke3 ixYeYE,nIciK;lxW;HFGEdroG EsSXUBLqWklG
+
+===== step 500 | val_loss 1.8356 =====
+ROMEO:
+Yet thy bridle fach is and the disence?
+
+AUTOLYS:
+O, the calananss arthing thy croce.
+
+Second:
+Have are the cannnot to zorouse of the of is hearth!
+Whell in a grientes not mile is the ove to deend
+Th
+
+===== step 1000 | val_loss 1.5520 =====
+ROMEO:
+You before with a purson, but being about a way.
+
+OXFORD:
+Sir, now are that us a the traitor:
+Some, away, my face, and God's days,
+From that I commit not my beg in ease.
+
+KING EDWARD IV:
+It and I kno
+
+===== step 1500 | val_loss 1.4801 =====
+ROMEO:
+You before we will be law them a senator,
+Or take and my cold and barnity foul hath been
+To lay a end consul.
+
+PRINCE EDWARD:
+You shall be the common more bound in easy.
+
+KING HENRY VI:
+Stand, then t
+

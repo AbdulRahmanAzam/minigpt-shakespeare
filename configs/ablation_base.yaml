@@ -1,0 +1,24 @@
+# Baseline for the controlled ablation study (Section 13). Small and fast (~0.8M params).
+# Each experiment changes ONE factor from this file; tokens per step is held at 64 x 128 = 8192.
+model:
+  context_length: 128
+  d_model: 128
+  n_heads: 4
+  n_layers: 4
+  ffn_dim: 512
+  dropout: 0.1
+  pos_encoding: sinusoidal
+data:
+  data_dir: data
+train:
+  seed: 1337
+  batch_size: 64
+  max_steps: 3000
+  lr: 1.0e-3
+  warmup_steps: 100
+  eval_interval: 500
+  eval_batches: null
+  log_interval: 100
+  out_dir: outputs/ablations/runs
+  save_checkpoints: false
+  run_name: ablation_base

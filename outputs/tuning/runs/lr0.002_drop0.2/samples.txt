@@ -1,0 +1,45 @@
+===== step 0 | val_loss 4.2492 =====
+ROMEO:?qfCxbDkRZkNdc.wj,ZTxOLOT,ebtK
+b:qYjCkMBbXA$3:XaSGgO-3DjMqc?gLTa
+hXbYVXJthXfNuwqcPMKG.tbVF dXlADvaLeWFw3cHPgRWk,fDE'nYuxz$INuX
+YoR&$LMtofCi&IIB!!&V!OW;KdYlN,,Ke3 ixYeYE,nIciK;lxW;HFGEdroG EsSXUBLqWklG
+
+===== step 500 | val_loss 1.6567 =====
+ROMEO:
+Yet thy brince?
+
+SOMERSET:
+Sir; is thy be done magraant the change:
+Whither us he hands contity ane away,
+And have a rezurn heavens make in her than hell
+Whices is ententend latest in overse and
+Will
+
+===== step 1000 | val_loss 1.4455 =====
+ROMEO:
+Alack, and whom and is the servanter buble well.
+
+OXFORD:
+Sir, our armit heavy command?
+
+MENENIUS:
+Why, now, that dare my mother.
+
+First Senator:
+His noble cause.
+
+First Senator:
+Faith, by Saint Warw
+
+===== step 1500 | val_loss 1.3898 =====
+ROMEO:
+Now before whom I have been thee set born to take
+Our strength of bardeth foul crown. What that are you?
+
+PRINCE:
+In the king
+Your prince, I can vail this body mister?
+
+PAULINA:
+Here is both and the 
+

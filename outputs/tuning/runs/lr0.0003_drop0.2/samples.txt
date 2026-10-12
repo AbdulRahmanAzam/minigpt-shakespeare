@@ -1,0 +1,34 @@
+===== step 0 | val_loss 4.2492 =====
+ROMEO:?qfCxbDkRZkNdc.wj,ZTxOLOT,ebtK
+b:qYjCkMBbXA$3:XaSGgO-3DjMqc?gLTa
+hXbYVXJthXfNuwqcPMKG.tbVF dXlADvaLeWFw3cHPgRWk,fDE'nYuxz$INuX
+YoR&$LMtofCi&IIB!!&V!OW;KdYlN,,Ke3 ixYeYE,nIciK;lxW;HFGEdroG EsSXUBLqWklG
+
+===== step 500 | val_loss 2.1689 =====
+ROMEO:
+Yor becer, whow and is so be madisen bobe
+Oferanth the the tatanss ar hipie us he he.
+Pard:
+Ashoate aw cromend, nod to horou thowns
+METENIEN:
+Whe my wou lon, e miree sen con latistt drovets,
+He wik t
+
+===== step 1000 | val_loss 1.9468 =====
+ROMEO:
+Now thy bridle.
+
+STANUS:
+The madire, bube to take rup my dagatans!
+You that us hat they comelancan, awill my then,
+Or my to he own proof it heir this now in at mire
+Then comilationt drove the deave t
+
+===== step 1500 | val_loss 1.8894 =====
+ROMEO:
+You beford will and is and the a seee,
+Feet evanty the cure and heave him foul him to bardet
+As ane away, and have a wizonous
+Yours, to fir hear this now in at mire,
+Ever in latist in overs, and the 
+

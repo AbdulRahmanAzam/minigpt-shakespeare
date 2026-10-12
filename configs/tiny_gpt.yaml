@@ -1,0 +1,32 @@
+# Main MiniGPT model trained on Tiny Shakespeare (character level).
+# Sized for a 4 GB laptop GPU (RTX 3050): ~4.8M parameters, ~9 min. Also runs on a Colab T4.
+model:
+  context_length: 256
+  d_model: 256
+  n_heads: 4
+  n_layers: 6
+  ffn_dim: 1024
+  dropout: 0.2
+  pos_encoding: sinusoidal
+  tie_weights: false
+  attn_impl: manual
+data:
+  data_dir: data
+  train_stride: 1
+train:
+  seed: 1337
+  batch_size: 64
+  max_steps: 3000            # val loss bottoms out at ~3000 steps; see outputs/logs/tiny_gpt_5000steps
+  lr: 2.0e-3                # chosen by experiments/tune.py (see outputs/tuning/results.md)
+  min_lr_ratio: 0.1
+  warmup_steps: 200
+  weight_decay: 0.1
+  grad_clip: 1.0
+  eval_interval: 250
+  eval_batches: null        # full validation pass at every evaluation
+  log_interval: 50
+  sample_prompt: "ROMEO:"
+  run_name: tiny_gpt
+generation:
+  max_new_tokens: 300
+  temperature: 0.8

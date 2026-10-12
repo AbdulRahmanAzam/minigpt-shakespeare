@@ -1,0 +1,28 @@
+MULTI-HEAD ATTENTION SHAPE TRACE  (B=2, T=8, d_model=256, n_heads=4, d_head=64)
+==============================================================================
+
+[A] full model forward pass (first block traced in detail)
+  token ids                   (2, 8)  (B, T)
+  token embedding * sqrt(d)   (2, 8, 256)  (B, T, d_model)
+  positional encoding         (8, 256)  (T, d_model) broadcast over batch
+  input x                     (2, 8, 256)  (B, T, d_model)
+  Q = x W_q, K, V             (2, 8, 256)  (B, T, d_model)
+  split_heads(Q)              (2, 4, 8, 64)  (B, H, T, d_head)
+  scores / weights per head   (2, 4, 8, 8)  (B, H, T, T)
+  weights @ V  (per head)     (2, 4, 8, 64)  (B, H, T, d_head)
+  merge_heads (concat)        (2, 8, 256)  (B, T, d_model)
+  output projection W_o       (2, 8, 256)  (B, T, d_model)
+  block output (after FFN)    (2, 8, 256)  (B, T, d_model)
+  final LayerNorm -> LM head  (2, 8, 65)  (B, T, vocab_size)
+  attention maps returned: 6 layers x (2, 4, 8, 8)
+
+[B] attention inside each head, then concatenation + output projection
+  Q, K, V after split_heads: (2, 4, 8, 64)
+  head 0: Q_i (2, 8, 64) -> weights (2, 8, 8) -> out (2, 8, 64)   (row sums = 1.000)
+  head 1: Q_i (2, 8, 64) -> weights (2, 8, 8) -> out (2, 8, 64)   (row sums = 1.000)
+  head 2: Q_i (2, 8, 64) -> weights (2, 8, 8) -> out (2, 8, 64)   (row sums = 1.000)
+  head 3: Q_i (2, 8, 64) -> weights (2, 8, 8) -> out (2, 8, 64)   (row sums = 1.000)
+  concat heads along features: 4 x (2, 8, 64) -> (2, 8, 256)
+  merge_heads(stack(heads)) == concat: True
+  W_o projection: (2, 8, 256) @ (256, 256) -> (2, 8, 256)
+  equals MultiHeadAttention module output: True

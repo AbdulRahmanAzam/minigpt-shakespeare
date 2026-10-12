@@ -1,0 +1,51 @@
+{
+  "model": {
+    "vocab_size": 65,
+    "context_length": 256,
+    "d_model": 256,
+    "n_heads": 4,
+    "n_layers": 6,
+    "ffn_dim": 1024,
+    "dropout": 0.2,
+    "pos_encoding": "sinusoidal",
+    "tie_weights": false,
+    "attn_impl": "manual",
+    "causal": true,
+    "bias": true
+  },
+  "data": {
+    "data_dir": "data",
+    "train_stride": 1,
+    "max_train_tokens": null
+  },
+  "train": {
+    "seed": 1337,
+    "device": "auto",
+    "precision": "auto",
+    "batch_size": 64,
+    "max_steps": 1500,
+    "lr": 0.0006,
+    "min_lr_ratio": 0.1,
+    "warmup_steps": 150,
+    "weight_decay": 0.1,
+    "beta1": 0.9,
+    "beta2": 0.95,
+    "grad_clip": 1.0,
+    "eval_interval": 500,
+    "eval_batches": null,
+    "log_interval": 50,
+    "sample_prompt": "ROMEO:",
+    "sample_tokens": 200,
+    "out_dir": "outputs\\tuning\\runs",
+    "ckpt_dir": "checkpoints",
+    "run_name": "lr0.0006_drop0.2",
+    "save_checkpoints": false,
+    "num_workers": 0
+  },
+  "generation": {
+    "max_new_tokens": 300,
+    "temperature": 0.8,
+    "top_k": null,
+    "top_p": null
+  }
+}

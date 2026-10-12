@@ -1,0 +1,12 @@
+.venv
+.git
+data
+checkpoints
+outputs
+notebooks
+report
+tests
+experiments
+**/__pycache__
+*.pdf
+.env

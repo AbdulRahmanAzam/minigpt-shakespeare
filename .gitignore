@@ -1,0 +1,29 @@
+# Python / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Data (downloaded by scripts/prepare_data.py)
+data/*.txt
+data/*.json
+!data/README.md
+
+# Model weights (published as a GitHub Release asset; see scripts/download_checkpoint.py)
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Instructor handout (not ours to redistribute)
+A1_AIE.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,13 @@
+Causal mask M (added to scores before softmax), tokens = 'R' 'O' 'M' 'E' 'O' ':'
+    'R'   0    -inf  -inf  -inf  -inf  -inf
+    'O'   0     0    -inf  -inf  -inf  -inf
+    'M'   0     0     0    -inf  -inf  -inf
+    'E'   0     0     0     0    -inf  -inf
+    'O'   0     0     0     0     0    -inf
+    ':'   0     0     0     0     0     0  
+Row i = query position, column j = key position; -inf above the diagonal blocks the future.
+
+BERT-style bidirectional mask: all zeros (every position sees every other position);
+instead of hiding the future, MLM hides ~15% of the *input tokens* with [MASK] and predicts them.
+
+sum of weights above the diagonal: causal = 0.000000, bidirectional = 2.4563

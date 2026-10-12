@@ -1,0 +1,9 @@
+# Minimal inference/serving dependencies (used by the Dockerfile / Render).
+# CPU-only PyTorch wheel keeps the image small (~200 MB instead of ~2.5 GB with CUDA).
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+numpy>=1.26
+pyyaml>=6.0
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6

@@ -1,0 +1,31 @@
+Per-head attention statistics, averaged over 64 validation windows (context 256, query positions >= 16)
+  mean_dist  = expected distance (i - j) to the attended key
+  prev       = weight on the immediately preceding character
+  self       = weight on the current character
+  first      = weight on the first position of the window
+
+layer head  mean_dist   prev   self  first
+    0    0       3.11   0.47   0.05   0.00
+    0    1       1.71   0.93   0.05   0.00
+    0    2       3.68   0.14   0.02   0.00
+    0    3       3.18   0.92   0.02   0.00
+    1    0      17.62   0.03   0.02   0.01
+    1    1       7.29   0.08   0.05   0.00
+    1    2       7.24   0.74   0.04   0.00
+    1    3       9.32   0.21   0.09   0.00
+    2    0       1.45   0.89   0.02   0.00
+    2    1       7.03   0.17   0.05   0.00
+    2    2       8.84   0.07   0.05   0.00
+    2    3       5.54   0.26   0.06   0.00
+    3    0       9.56   0.08   0.05   0.00
+    3    1       7.28   0.21   0.06   0.00
+    3    2       7.12   0.30   0.04   0.00
+    3    3       7.52   0.17   0.05   0.00
+    4    0      26.02   0.13   0.04   0.01
+    4    1      16.36   0.04   0.03   0.00
+    4    2      28.45   0.05   0.03   0.01
+    4    3      15.73   0.07   0.05   0.00
+    5    0      32.34   0.03   0.02   0.01
+    5    1      33.51   0.04   0.02   0.01
+    5    2      45.91   0.02   0.02   0.01
+    5    3      39.49   0.02   0.02   0.01

@@ -1,0 +1,30 @@
+===== step 0 | val_loss 4.2492 =====
+ROMEO:?qfCxbDkRZkNdc.wj,ZTxOLOT,ebtK
+b:qYjCkMBbXA$3:XaSGgO-3DjMqc?gLTa
+hXbYVXJthXfNuwqcPMKG.tbVF dXlADvaLeWFw3cHPgRWk,fDE'nYuxz$INuX
+YoR&$LMtofCi&IIB!!&V!OW;KdYlN,,Ke3 ixYeYE,nIciK;lxW;HFGEdroG EsSXUBLqWklG
+
+===== step 500 | val_loss 1.6119 =====
+ROMEO:
+Yet before will yea, sir, be made you was you.
+She nature against be that foul crown.
+What that a enswice my facest of God's king,
+From that I confil now in a grief,
+Even in the stain of the conquing
+
+===== step 1000 | val_loss 1.4228 =====
+ROMEO:
+You shall be swift to lay them a servant,
+Unless hath strewgarded barneth foul command?
+We thank the world of the day that the own
+From that I can stand to call it entertain;
+Still in the speed of lo
+
+===== step 1500 | val_loss 1.3726 =====
+ROMEO:
+You have did sworn to lay them a service,
+Unless hath straight us barriage out of his back:
+And afterward with his actizenment of the
+officer blood with the beg in the neck. The stride
+Give me the lo
+

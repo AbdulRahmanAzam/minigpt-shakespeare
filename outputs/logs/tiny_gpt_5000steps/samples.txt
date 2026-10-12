@@ -1,0 +1,210 @@
+===== step 0 | val_loss 4.2492 =====
+ROMEO:?qfCxbDkRZkNdc.wj,ZTxOLOT,ebtK
+b:qYjCkMBbXA$3:XaSGgO-3DjMqc?gLTa
+hXbYVXJthXfNuwqcPMKG.tbVF dXlADvaLeWFw3cHPgRWk,fDE'nYuxz$INuX
+YoR&$LMtofCi&IIB!!&V!OW;KdYlN,,Ke3 ixYeYE,nIciK;lxW;HFGEdroG EsSXUBLqWklG
+
+===== step 250 | val_loss 2.0887 =====
+ROMEO:
+All becond whow and is by be madient bube to tanther'd
+My alleausst the hat us com to bardetlancanes wiled you,
+Than will mughtouns, tof in he coulionnd lincees ifee
+sen cin latiser drove the the me 
+
+===== step 500 | val_loss 1.6742 =====
+ROMEO:
+You before will and in the tribed of Morecuse.
+She name me?
+
+TaUMIO:
+I that us have be are that a endreng my facest,
+An yet he owns, to time come my follow,
+We mise, see contle is the overtue,
+And no
+
+===== step 750 | val_loss 1.5181 =====
+ROMEO:
+Now thy bring will be law be man and bublow of my run,
+My love of the backen will have as delays,
+But where he false of her heavens, to him.
+But this now in a grievens, and that Hermia's the death
+Th
+
+===== step 1000 | val_loss 1.4571 =====
+ROMEO:
+Now, I may do with the sorrow
+And so bublought at Oxford's gate
+My son that use a bretty determoan,
+And the county's of thoughts them of the country.
+
+JULIET:
+What ensent in the Hereford to the king 
+
+===== step 1250 | val_loss 1.4199 =====
+ROMEO:
+You have did swear to life to be so much,
+Or I will appear to any bard that use
+Of the freetire and sweet my father,
+And I make thee to the child mark of my begins,
+Then ministers that Gloucester me 
+
+===== step 1500 | val_loss 1.3985 =====
+ROMEO:
+Nor before whom I have been to die.
+
+MERCUTIO:
+Signior Murdererers: thou hast queen.
+
+POMPEY:
+So, every now a kingdom, when he been
+Make it in the sweet like enemies,
+In contracts that virtue of the 
+
+===== step 1750 | val_loss 1.3939 =====
+ROMEO:
+Alack, and whom I have said that set bobe to take
+Our streets and bar backen with his back:
+And all away, what fall out of my tongue.
+
+GREEMIO:
+No! What! it is mirteed, I hear them in the speech
+Of t
+
+===== step 2000 | val_loss 1.3793 =====
+ROMEO:
+Now thy brother and thou, by my cheek was done,
+That I shall have been thy pursuivate back:
+And afterward my father, which my noble look's son!
+But what lies thy father hath laid this labour,
+Before 
+
+===== step 2250 | val_loss 1.3674 =====
+ROMEO:
+All that I will be thus fearful is thy bed.
+
+CORIOLANUS:
+The hands are thy putting to be the thornest.
+
+MENENIUS:
+In whole the other to the common stand;
+Which in these honours is the over-bed.
+
+Firs
+
+===== step 2500 | val_loss 1.3640 =====
+ROMEO:
+Alack, and where father fellows it?
+
+MERCUTIO:
+Signior Marcius lady; and I, as he had been that a
+end.
+
+MERCUTIO:
+Take home her with the watch.
+
+MENENIUS:
+What is the very will is this?
+
+ESCALUS:
+I p
+
+===== step 2750 | val_loss 1.3624 =====
+ROMEO:
+Art thou now order? O love thou canst not do:
+I throw my countrymen, that thus hast been
+And thou enjoy'd my father with to heaven.
+My father is this now in a grief, sent in this:
+Give me the bed me 
+
+===== step 3000 | val_loss 1.3577 =====
+ROMEO:
+Alack, and whom all is not the diseased soul:
+and O, the daggerous army hath with his back,
+And all arched in himself that makes him to him.
+
+JULIET:
+Why, that might stay in this man to be patient?
+
+
+
+===== step 3250 | val_loss 1.3602 =====
+ROMEO:
+Alack, and who is no son, but back to Baptista Stanley?
+
+FRIAR LAURENCE:
+If not, my lord, I love, enjoy thee then,
+Thou art penitent to thy heart and more.
+
+JULIET:
+Yes, mine are made overthrow; the 
+
+===== step 3500 | val_loss 1.3669 =====
+ROMEO:
+Alas! for you will kiss you that seem of our hands.
+
+FRIAR LAURENCE:
+Not a way or breath; but hoar, art thou near day's neck,
+Young Margaret Barnardine's charge is engrossing
+To Henry of Edward's kni
+
+===== step 3750 | val_loss 1.3758 =====
+ROMEO:
+Alas! for it is a maid to be made to beast!
+
+CORIOLANUS:
+That's he's a thief with his bark: laws the world,
+When stand by much of the office of the world
+Which might stay in law until over-peace
+Will
+
+===== step 4000 | val_loss 1.3748 =====
+ROMEO:
+Alas! for you will keep you that seem of me
+In manner stream of her brother up her very state!
+Hath sworn my father, which my noble lord,
+Have I no less to catch away them with the clouds,
+Stand to t
+
+===== step 4250 | val_loss 1.3770 =====
+ROMEO:
+No; but this is a maid of bloody sea,
+But to take and my daggerous arm that usurp,
+And all the way, are not a king, to break:
+Your proceeding both is now in a grief,
+Even in law and drop the deep of 
+
+===== step 4500 | val_loss 1.3844 =====
+ROMEO:
+Alack, and who is no soul that his hand,
+And take him some little barriage,
+A quit of barren and fearful way.
+
+HENRY BOLINGBROKE:
+Ay, of this boy, all discover'd reech,
+I heard it to revenge, thou lo
+
+===== step 4750 | val_loss 1.3879 =====
+ROMEO:
+All this is coming: O lovely man!
+The obedient and the lusty haughty death,
+How it is bar deliver'd away, and none of your
+manners, make you call me with me, even weep.
+
+ANGELO:
+Help, help me to the 
+
+===== step 5000 | val_loss 1.3906 =====
+ROMEO:
+All that I was.
+
+Servant:
+Here comes Montague.
+
+Servant:
+This is some other uncle, they cannot call upon
+their factions and heavens, to time him to the
+duke.
+
+Second Servingman:
+Here in the people ha
+
