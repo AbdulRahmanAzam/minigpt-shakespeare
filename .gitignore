@@ -27,3 +27,6 @@ A1_AIE.pdf
 Thumbs.db
 .vscode/
 .idea/
+
+# Local run logs
+outputs/queue_log.txt
